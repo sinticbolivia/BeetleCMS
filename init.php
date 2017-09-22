@@ -102,6 +102,7 @@ elseif( defined('APP_NAME') )
 
 //$app = SB_Application::GetApplication(defined('APP_NAME') ? APP_NAME : null);
 $app = SB_Factory::getApplication($app);
+/*
 set_error_handler(function($errno, $error, $error_file, $error_line, $context)
 {
 	$app = SB_Factory::getApplication();
@@ -114,6 +115,7 @@ set_error_handler(function($errno, $error, $error_file, $error_line, $context)
 	}
 	
 }, E_ALL);
+*/
 $app->Load();
 
 if( defined('LT_INSTALL') )
