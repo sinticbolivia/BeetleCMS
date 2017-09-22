@@ -1,0 +1,2471 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Little CMS\n"
+"POT-Creation-Date: 2016-11-04 14:29-0400\n"
+"PO-Revision-Date: 2016-11-04 14:35-0400\n"
+"Last-Translator: J. Marcelo Aviles Paco <maviles@sinticbolivia.net>\n"
+"Language-Team: Sintic Bolivia\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;SBText;SB_Text;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPathExcluded-0: ../../../admin/templates\n"
+"X-Poedit-SearchPathExcluded-1: ../../../include/libs\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ../../../admin\n"
+"X-Poedit-SearchPath-1: ../../../include\n"
+"X-Poedit-SearchPath-2: ../../../install\n"
+
+#: ../../../admin/settings.php:9 ../../../admin/templates.php:9
+#: ../../../admin/profile.php:9 ../../../admin/index.php:9
+#: ../../../admin/templates/little-boys/login.php:26
+#: ../../../admin/templates/floreria/login.php:22
+#: ../../../admin/templates/digiprint/login.php:20
+#: ../../../admin/templates/default/login.php:15
+#: ../../../admin/templates/ceass/login.php:23
+msgid "login.php"
+msgstr ""
+
+#: ../../../admin/templates.php:21
+msgid "The template has been activated"
+msgstr "La plantilla fue activada"
+
+#: ../../../admin/templates.php:34 ../../../admin/include/functions.php:24
+msgid "Templates"
+msgstr "Plantillas"
+
+#: ../../../admin/templates.php:36
+msgid "templates.php?type=frontend"
+msgstr ""
+
+#: ../../../admin/templates.php:36
+msgid "Frontend"
+msgstr ""
+
+#: ../../../admin/templates.php:37
+#, fuzzy
+msgid "templates.php?type=backend"
+msgstr "Access to backend"
+
+#: ../../../admin/templates.php:37
+msgid "Backend"
+msgstr "Panel de Administracion"
+
+#: ../../../admin/templates.php:58 ../../../admin/templates.php:98
+msgid "Author:"
+msgstr "Autor:"
+
+#: ../../../admin/templates.php:62
+msgid "URL:"
+msgstr ""
+
+#: ../../../admin/templates.php:70
+msgid "Version:"
+msgstr ""
+
+#: ../../../admin/templates.php:76
+msgid "Description:"
+msgstr "Descripci&oacute;n"
+
+#: ../../../admin/templates.php:102
+msgid "templates.php?type="
+msgstr ""
+
+#: ../../../admin/templates.php:102
+msgid "Activate"
+msgstr "Activar"
+
+#: ../../../admin/templates.php:103
+msgid "Website"
+msgstr "Sitio web"
+
+#: ../../../admin/include/functions.php:6
+#: ../../../admin/templates/digiprint/navigation.php:19
+msgid "Home"
+msgstr "Inicio"
+
+#: ../../../admin/include/functions.php:6
+#: ../../../admin/templates/digiprint/navigation.php:17
+#: ../../../admin/templates/digiprint/navigation.php:41
+#: ../../../admin/templates/digiprint/navigation.php:51
+#: ../../../admin/templates/digiprint/modules/mod_settings/views/admin/default.php:84
+#: ../../../admin/templates/digiprint/modules/mod_dashboard/views/admin/default.php:4
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/new_product.php:366
+#: ../../../include/functions.php:399 ../../../include/functions.php:780
+#: ../../../install/success.php:244
+msgid "index.php"
+msgstr ""
+
+#: ../../../admin/include/functions.php:12
+#, fuzzy
+msgid "index.php?mod=content&type="
+msgstr "Modulos"
+
+#: ../../../admin/include/functions.php:15
+msgid "Management"
+msgstr "Administracion"
+
+#: ../../../admin/include/functions.php:16
+#: ../../../admin/include/functions.php:19
+#: ../../../admin/templates/digiprint/modules/mod_settings/views/admin/default.php:6
+msgid "Settings"
+msgstr "Configuracion"
+
+#: ../../../admin/include/functions.php:16
+#: ../../../admin/include/functions.php:19
+msgid "settings.php"
+msgstr ""
+
+#: ../../../admin/include/functions.php:22
+msgid "Modules"
+msgstr "Modulos"
+
+#: ../../../admin/include/functions.php:22
+#, fuzzy
+msgid "index.php?mod=modules"
+msgstr "Modulos"
+
+#: ../../../admin/include/functions.php:24
+msgid "templates.php"
+msgstr ""
+
+#: ../../../admin/templates/little-boys/header.php:38
+#: ../../../admin/templates/little-boys/navigation.php:7
+#: ../../../admin/templates/floreria/navigation.php:7
+#: ../../../admin/templates/digiprint/navigation.php:8
+#: ../../../admin/templates/default/navigation.php:32
+#: ../../../admin/templates/ceass/header.php:40
+#: ../../../admin/templates/ceass/navigation.php:7
+msgid "profile.php"
+msgstr ""
+
+#: ../../../admin/templates/little-boys/header.php:38
+#: ../../../admin/templates/little-boys/navigation.php:7
+#: ../../../admin/templates/floreria/navigation.php:7
+#: ../../../admin/templates/digiprint/navigation.php:8
+#: ../../../admin/templates/ceass/header.php:40
+#: ../../../admin/templates/ceass/navigation.php:7
+msgid "My profile"
+msgstr "Mi Perfil"
+
+#: ../../../admin/templates/little-boys/header.php:41
+#: ../../../admin/templates/little-boys/navigation.php:8
+#: ../../../admin/templates/floreria/navigation.php:8
+#: ../../../admin/templates/digiprint/navigation.php:9
+#: ../../../admin/templates/default/navigation.php:33
+#: ../../../admin/templates/ceass/header.php:43
+#: ../../../admin/templates/ceass/navigation.php:8
+#, fuzzy
+msgid "index.php?mod=users&task=logout"
+msgstr "Modulos"
+
+#: ../../../admin/templates/little-boys/header.php:41
+#: ../../../admin/templates/little-boys/navigation.php:8
+#: ../../../admin/templates/floreria/navigation.php:8
+#: ../../../admin/templates/digiprint/navigation.php:9
+#: ../../../admin/templates/ceass/header.php:43
+#: ../../../admin/templates/ceass/navigation.php:8
+msgid "Close session"
+msgstr ""
+
+#: ../../../admin/templates/little-boys/navigation.php:6
+#: ../../../admin/templates/floreria/navigation.php:6
+#: ../../../admin/templates/digiprint/navigation.php:7
+#: ../../../admin/templates/ceass/navigation.php:6
+#, php-format
+msgid "Hello %s"
+msgstr "Hola %s"
+
+#: ../../../admin/templates/little-boys/functions.php:64
+#: ../../../admin/templates/ceass/functions.php:64
+msgid "Project Information"
+msgstr ""
+
+#: ../../../admin/templates/little-boys/functions.php:67
+#: ../../../admin/templates/ceass/functions.php:67
+msgid "Manager"
+msgstr "Administrador"
+
+#: ../../../admin/templates/little-boys/functions.php:71
+#: ../../../admin/templates/ceass/functions.php:71
+msgid "Budget"
+msgstr ""
+
+#: ../../../admin/templates/little-boys/functions.php:75
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/coupons.default.php:26
+#: ../../../admin/templates/ceass/functions.php:75
+msgid "Start Date"
+msgstr ""
+
+#: ../../../admin/templates/little-boys/functions.php:79
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/coupons.default.php:27
+#: ../../../admin/templates/ceass/functions.php:79
+msgid "End Date"
+msgstr ""
+
+#: ../../../admin/templates/little-boys/functions.php:85
+#: ../../../admin/templates/ceass/functions.php:85
+msgid "Geo Data"
+msgstr ""
+
+#: ../../../admin/templates/little-boys/functions.php:88
+#: ../../../admin/templates/digiprint/modules/mod_customers/views/admin/new.php:92
+#: ../../../admin/templates/ceass/functions.php:88
+msgid "Address"
+msgstr ""
+
+#: ../../../admin/templates/little-boys/functions.php:92
+#: ../../../admin/templates/ceass/functions.php:92
+msgid "Latitude"
+msgstr ""
+
+#: ../../../admin/templates/little-boys/functions.php:96
+#: ../../../admin/templates/ceass/functions.php:96
+msgid "Length"
+msgstr ""
+
+#: ../../../admin/templates/little-boys/login.php:36
+#: ../../../admin/templates/floreria/login.php:32
+#: ../../../admin/templates/digiprint/login.php:27
+#: ../../../admin/templates/ceass/login.php:33
+msgid "Username"
+msgstr ""
+
+#: ../../../admin/templates/little-boys/login.php:42
+#: ../../../admin/templates/floreria/login.php:38
+#: ../../../admin/templates/digiprint/login.php:30
+#: ../../../admin/templates/ceass/login.php:39
+msgid "Password"
+msgstr "Contrase&ntilde;a"
+
+#: ../../../admin/templates/little-boys/login.php:44
+#: ../../../admin/templates/floreria/login.php:40
+#: ../../../admin/templates/ceass/login.php:41
+msgid "Sign in"
+msgstr ""
+
+#: ../../../admin/templates/little-boys/login.php:46
+#: ../../../admin/templates/floreria/login.php:42
+msgid "Don't have an account?"
+msgstr ""
+
+#: ../../../admin/templates/little-boys/login.php:47
+#: ../../../admin/templates/floreria/login.php:43
+msgid "Sign up"
+msgstr ""
+
+#: ../../../admin/templates/little-boys/login.php:61
+#: ../../../admin/templates/floreria/login.php:57
+#: ../../../admin/templates/ceass/login.php:54
+msgid "Good Morning!"
+msgstr ""
+
+#: ../../../admin/templates/little-boys/include/hooks.customers.php:26
+#: ../../../admin/templates/floreria/include/hooks.customers.php:26
+#: ../../../admin/templates/ceass/include/hooks.customers.php:26
+msgid "Important Dates"
+msgstr ""
+
+#: ../../../admin/templates/little-boys/include/hooks.customers.php:40
+#: ../../../admin/templates/floreria/include/hooks.customers.php:40
+#: ../../../admin/templates/digiprint/modules/mod_customers/views/admin/new.php:16
+#: ../../../admin/templates/ceass/include/hooks.customers.php:40
+msgid "Add"
+msgstr ""
+
+#: ../../../admin/templates/little-boys/include/hooks.customers.php:45
+#: ../../../admin/templates/floreria/include/hooks.customers.php:45
+#: ../../../admin/templates/ceass/include/hooks.customers.php:45
+msgid "Num."
+msgstr "Nro"
+
+#: ../../../admin/templates/little-boys/include/hooks.customers.php:46
+#: ../../../admin/templates/floreria/include/hooks.customers.php:46
+#: ../../../admin/templates/ceass/include/hooks.customers.php:46
+msgid "Title"
+msgstr ""
+
+#: ../../../admin/templates/little-boys/include/hooks.customers.php:47
+#: ../../../admin/templates/floreria/include/hooks.customers.php:47
+#: ../../../admin/templates/digiprint/modules/mod_quotes/views/admin/default.php:28
+#: ../../../admin/templates/ceass/include/hooks.customers.php:47
+msgid "Date"
+msgstr ""
+
+#: ../../../admin/templates/floreria/inventario.php:8
+#, fuzzy
+msgid "index.php?mod=mb&view=categories.default"
+msgstr "Modulos"
+
+#: ../../../admin/templates/floreria/inventario.php:13
+#, fuzzy
+msgid "index.php?mod=mb&view=types.default"
+msgstr "Modulos"
+
+#: ../../../admin/templates/floreria/inventario.php:18
+#, fuzzy
+msgid "index.php?mod=mb&view=mu.default"
+msgstr "Modulos"
+
+#: ../../../admin/templates/floreria/inventario.php:23
+#: ../../../admin/templates/digiprint/navigation.php:47
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/new_product.php:9
+#, fuzzy
+msgid "index.php?mod=mb"
+msgstr "Modulos"
+
+#: ../../../admin/templates/floreria/inventario.php:26
+#, fuzzy
+msgid "index.php?mod=mb&view=purchases.default"
+msgstr "Modulos"
+
+#: ../../../admin/templates/floreria/inventario.php:29
+#, fuzzy
+msgid "index.php?mod=provider"
+msgstr "Modulos"
+
+#: ../../../admin/templates/floreria/inventario.php:32
+#, fuzzy
+msgid "index.php?mod=mb&view=import"
+msgstr "Modulos"
+
+#: ../../../admin/templates/floreria/web.php:8
+#, fuzzy
+msgid "index.php?mod=content"
+msgstr "Modulos"
+
+#: ../../../admin/templates/floreria/web.php:13
+msgid "index.php?mod=content&view=section.default"
+msgstr ""
+
+#: ../../../admin/templates/floreria/ventas.php:8
+#: ../../../admin/templates/digiprint/navigation.php:23
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/orders.new.php:13
+#, fuzzy
+msgid "index.php?mod=mb&view=orders.default"
+msgstr "Modulos"
+
+#: ../../../admin/templates/floreria/ventas.php:13
+#, fuzzy
+msgid "index.php?mod=mb&view=pos.default"
+msgstr "Modulos"
+
+#: ../../../admin/templates/floreria/ventas.php:18
+#: ../../../admin/templates/digiprint/navigation.php:29
+#: ../../../admin/templates/digiprint/modules/mod_quotes/views/admin/new.php:13
+#, fuzzy
+msgid "index.php?mod=quotes"
+msgstr "Modulos"
+
+#: ../../../admin/templates/floreria/ventas.php:23
+#, fuzzy
+msgid "index.php?mod=invoices"
+msgstr "Modulos"
+
+#: ../../../admin/templates/floreria/gestion.php:8
+#: ../../../admin/templates/digiprint/navigation.php:35
+#: ../../../admin/templates/digiprint/modules/mod_customers/views/admin/new.php:14
+#, fuzzy
+msgid "index.php?mod=customers"
+msgstr "Modulos"
+
+#: ../../../admin/templates/floreria/gestion.php:13
+#, fuzzy
+msgid "index.php?mod=employees"
+msgstr "Modulos"
+
+#: ../../../admin/templates/floreria/gestion.php:18
+#: ../../../admin/templates/digiprint/navigation.php:67
+#, fuzzy
+msgid "index.php?mod=users"
+msgstr "Modulos"
+
+#: ../../../admin/templates/floreria/gestion.php:23
+#, fuzzy
+msgid "index.php?mod=users&view=roles"
+msgstr "Modulos"
+
+#: ../../../admin/templates/digiprint/header.php:32
+msgid "Search in system"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/header.php:39
+#: ../../../admin/templates/digiprint/functions.php:50
+#, fuzzy
+msgid "index.php?mod=mb&view=settings"
+msgstr "Modulos"
+
+#: ../../../admin/templates/digiprint/header.php:39
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/settings.php:5
+#, fuzzy
+msgid "System Settings"
+msgstr "Configuracion"
+
+#: ../../../admin/templates/digiprint/navigation.php:25
+msgid "Orders"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/navigation.php:31
+#: ../../../admin/templates/digiprint/modules/mod_quotes/views/admin/default.php:5
+msgid "Quotes"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/navigation.php:37
+#, fuzzy
+msgid "Customers"
+msgstr "Administracion"
+
+#: ../../../admin/templates/digiprint/navigation.php:43
+msgid "Box"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/navigation.php:49
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/settings.php:138
+msgid "Products"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/navigation.php:53
+msgid "Reports"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/navigation.php:55
+#, fuzzy
+msgid "index.php?mod=storage"
+msgstr "Modulos"
+
+#: ../../../admin/templates/digiprint/navigation.php:57
+msgid "My Storage"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/navigation.php:59
+#, fuzzy
+msgid "index.php?mod=mb&view=coupons.default"
+msgstr "Modulos"
+
+#: ../../../admin/templates/digiprint/navigation.php:61
+msgid "Promotions"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/navigation.php:63
+#, fuzzy
+msgid "index.php?mod=support"
+msgstr "Modulos"
+
+#: ../../../admin/templates/digiprint/navigation.php:65
+msgid "Support"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/navigation.php:69
+msgid "Users"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/login.php:35
+msgid "Remember password"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/login.php:39
+msgid "Access to System"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/notas/comprobante_pedido.php:71
+msgid "index.php?task=dp_checkin&id="
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_settings/views/admin/default.php:11
+msgid "SETTINGS_TAB_LABEL_GENERAL"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_settings/views/admin/default.php:12
+msgid "General"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_settings/views/admin/default.php:29
+msgid "SETTINGS_LABEL_SITE_TITLE"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_settings/views/admin/default.php:30
+msgid "Site Title:"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_settings/views/admin/default.php:35
+msgid "Color de T&iacute;tulo"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_settings/views/admin/default.php:41
+msgid "SETTINGS_LABEL_TIME_ZONE"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_settings/views/admin/default.php:42
+msgid "Hourly Zone:"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_settings/views/admin/default.php:48
+msgid "SETTINGS_LABEL_DATE_FORMAT"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_settings/views/admin/default.php:49
+msgid "Date Format:"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_settings/views/admin/default.php:57
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/settings.php:85
+msgid "Country:"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_settings/views/admin/default.php:65
+msgid "Language:"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_settings/views/admin/default.php:67
+#: ../../../include/classes/class.language.php:22
+msgid "English"
+msgstr "Ingles"
+
+#: ../../../admin/templates/digiprint/modules/mod_settings/views/admin/default.php:68
+#: ../../../include/classes/class.language.php:21
+msgid "Spanish"
+msgstr "Espa&ntilde;ol"
+
+#: ../../../admin/templates/digiprint/modules/mod_settings/views/admin/default.php:84
+msgid "Cancelar"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_settings/views/admin/default.php:85
+msgid "SETTINGS_BUTTON_SAVE"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_settings/views/admin/default.php:86
+#: ../../../admin/templates/digiprint/modules/mod_customers/views/admin/new.php:16
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/settings.php:7
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/orders.new.php:22
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/new_product.php:14
+#: ../../../admin/templates/digiprint/modules/mod_quotes/views/admin/new.php:24
+msgid "Save"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_dashboard/views/admin/default.php:10
+msgid "Order number"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_dashboard/views/admin/default.php:17
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/orders.default.php:7
+msgid "New Order"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_dashboard/views/admin/default.php:21
+msgid "Quote"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_dashboard/views/admin/default.php:25
+#: ../../../admin/templates/digiprint/modules/mod_quotes/views/admin/default.php:31
+msgid "Customer"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_dashboard/views/admin/default.php:38
+msgid "You need to enter the order number"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_customers/views/admin/new.php:14
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/orders.new.php:14
+#: ../../../admin/templates/digiprint/modules/mod_quotes/views/admin/new.php:14
+#, fuzzy
+msgid "Cancel"
+msgstr "Francia"
+
+#: ../../../admin/templates/digiprint/modules/mod_customers/views/admin/new.php:15
+msgid "index.php?task=customers_add_and_send"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_customers/views/admin/new.php:15
+msgid "Add and Send Data"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_customers/views/admin/new.php:19
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/settings.php:52
+msgid "General Information"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_customers/views/admin/new.php:23
+#: ../../../admin/templates/digiprint/modules/mod_customers/views/admin/default.php:25
+msgid "First Name"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_customers/views/admin/new.php:29
+#: ../../../admin/templates/digiprint/modules/mod_customers/views/admin/default.php:28
+msgid "Telephone"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_customers/views/admin/new.php:37
+#: ../../../admin/templates/digiprint/modules/mod_customers/views/admin/default.php:26
+msgid "Last Name"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_customers/views/admin/new.php:43
+msgid "Mobile Telephone"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_customers/views/admin/new.php:51
+msgid "Customer Type"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_customers/views/admin/new.php:56
+#: ../../../admin/templates/digiprint/modules/mod_customers/views/admin/default.php:27
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/orders.new.php:515
+#: ../../../admin/templates/digiprint/modules/mod_quotes/views/admin/new.php:492
+msgid "Email"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_customers/views/admin/new.php:63
+msgid "Business Information"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_customers/views/admin/new.php:67
+msgid "Company"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_customers/views/admin/new.php:73
+msgid "NIT/RUC/NIF"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_customers/views/admin/new.php:79
+msgid "Office Telephone"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_customers/views/admin/new.php:86
+msgid "City"
+msgstr "Ciudad"
+
+#: ../../../admin/templates/digiprint/modules/mod_customers/views/admin/new.php:98
+msgid "No. Exterior - Interior"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_customers/views/admin/new.php:105
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/settings.php:77
+msgid "State"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_customers/views/admin/new.php:109
+msgid "Country"
+msgstr "Pais"
+
+#: ../../../admin/templates/digiprint/modules/mod_customers/views/admin/new.php:111
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/settings.php:87
+msgid "-- country --"
+msgstr "-- pais --"
+
+#: ../../../admin/templates/digiprint/modules/mod_customers/views/admin/new.php:118
+msgid "ZIP"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_customers/views/admin/default.php:5
+#, fuzzy
+msgid "Customers Management"
+msgstr "Administracion"
+
+#: ../../../admin/templates/digiprint/modules/mod_customers/views/admin/default.php:6
+#, fuzzy
+msgid "index.php?mod=customers&view=new"
+msgstr "Modulos"
+
+#: ../../../admin/templates/digiprint/modules/mod_customers/views/admin/default.php:7
+msgid "New Customer"
+msgstr "Nuevo Cliente"
+
+#: ../../../admin/templates/digiprint/modules/mod_customers/views/admin/default.php:15
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/orders.new.php:48
+#: ../../../admin/templates/digiprint/modules/mod_quotes/views/admin/new.php:50
+msgid "Search customer"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_customers/views/admin/default.php:24
+msgid "Customer Id"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_customers/views/admin/default.php:29
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/settings.php:139
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/orders.new.php:184
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/coupons.default.php:28
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/orders.default.php:26
+#: ../../../admin/templates/digiprint/modules/mod_quotes/views/admin/default.php:32
+msgid "Status"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_customers/views/admin/default.php:49
+msgid "index.php?mod=customers&task=edit&id="
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_customers/views/admin/default.php:50
+#: ../../../admin/templates/digiprint/modules/mod_quotes/views/admin/default.php:86
+msgid "Edit"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_customers/views/admin/default.php:55
+msgid "Are you sure to delete the customer?"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_customers/views/admin/default.php:56
+#, fuzzy
+msgid "index.php?mod=customers&task=delete&id="
+msgstr "Modulos"
+
+#: ../../../admin/templates/digiprint/modules/mod_customers/views/admin/default.php:57
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/settings.php:157
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/coupons.default.php:48
+#: ../../../admin/templates/digiprint/modules/mod_quotes/views/admin/default.php:80
+msgid "Delete"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_customers/views/admin/default.php:64
+msgid "There are no customers registered yet"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/settings.php:10
+msgid "Company Information"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/settings.php:14
+msgid "Business Name:"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/settings.php:20
+msgid "Telephone:"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/settings.php:26
+msgid "Slogan:"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/settings.php:34
+msgid "Registro Federal de Contribuyentes:"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/settings.php:40
+msgid "Email:"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/settings.php:46
+#, fuzzy
+msgid "Website:"
+msgstr "Sitio web"
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/settings.php:53
+msgid "Branch Office"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/settings.php:54
+msgid "Categories"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/settings.php:65
+msgid "Business Address:"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/settings.php:71
+msgid "City, State"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/settings.php:110
+msgid "System Email"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/settings.php:137
+msgid "Category Name"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/settings.php:155
+msgid "index.php?mod=mb&task=categories.delete&id="
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/settings.php:156
+msgid "Are you sure to delete the category?"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/orders.new.php:17
+msgid "index.php?mod=mb&view=orders.print_receipt&id="
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/orders.new.php:18
+#: ../../../admin/templates/digiprint/modules/mod_quotes/views/admin/new.php:18
+msgid "Print"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/orders.new.php:27
+#: ../../../admin/templates/digiprint/modules/mod_quotes/views/admin/new.php:29
+msgid "General Details"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/orders.new.php:33
+#: ../../../admin/templates/digiprint/modules/mod_quotes/views/admin/new.php:35
+msgid "ID"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/orders.new.php:39
+#: ../../../admin/templates/digiprint/modules/mod_quotes/views/admin/new.php:41
+msgid "Customer Name"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/orders.new.php:52
+#: ../../../admin/templates/digiprint/modules/mod_quotes/views/admin/new.php:54
+msgid "Create customer"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/orders.new.php:70
+#: ../../../admin/templates/digiprint/modules/mod_quotes/views/admin/new.php:72
+#: ../../../admin/templates/digiprint/modules/mod_quotes/views/admin/default.php:29
+msgid "Store"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/orders.new.php:72
+#: ../../../admin/templates/digiprint/modules/mod_quotes/views/admin/new.php:74
+msgid "-- store --"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/orders.new.php:83
+#: ../../../admin/templates/digiprint/modules/mod_quotes/views/admin/new.php:85
+msgid "Apply Promo"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/orders.new.php:85
+#: ../../../admin/templates/digiprint/modules/mod_quotes/views/admin/new.php:87
+msgid "-- coupon --"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/orders.new.php:94
+#: ../../../admin/templates/digiprint/modules/mod_quotes/views/admin/new.php:96
+msgid "Taxes"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/orders.new.php:96
+#: ../../../admin/templates/digiprint/modules/mod_quotes/views/admin/new.php:98
+msgid "-- taxes --"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/orders.new.php:109
+msgid "Order Num."
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/orders.new.php:114
+#: ../../../admin/templates/digiprint/modules/mod_quotes/views/admin/new.php:116
+msgid "Sub Total:"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/orders.new.php:118
+#: ../../../admin/templates/digiprint/modules/mod_quotes/views/admin/new.php:120
+msgid "Discount:"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/orders.new.php:122
+#: ../../../admin/templates/digiprint/modules/mod_quotes/views/admin/new.php:124
+msgid "Tax:"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/orders.new.php:126
+#: ../../../admin/templates/digiprint/modules/mod_quotes/views/admin/new.php:128
+msgid "Advance:"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/orders.new.php:130
+#: ../../../admin/templates/digiprint/modules/mod_quotes/views/admin/new.php:132
+msgid "Grand Total:"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/orders.new.php:139
+#: ../../../admin/templates/digiprint/modules/mod_quotes/views/admin/new.php:141
+msgid "Search product"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/orders.new.php:141
+#: ../../../admin/templates/digiprint/modules/mod_quotes/views/admin/new.php:143
+msgid "Add item"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/orders.new.php:148
+#: ../../../admin/templates/digiprint/modules/mod_quotes/views/admin/new.php:150
+msgid "No."
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/orders.new.php:149
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/new_product.php:27
+#: ../../../admin/templates/digiprint/modules/mod_quotes/views/admin/new.php:151
+msgid "Code"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/orders.new.php:150
+#: ../../../admin/templates/digiprint/modules/mod_quotes/views/admin/new.php:152
+msgid "Product"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/orders.new.php:151
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/new_product.php:60
+#: ../../../admin/templates/digiprint/modules/mod_quotes/views/admin/new.php:153
+msgid "Quantity"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/orders.new.php:152
+#: ../../../admin/templates/digiprint/modules/mod_quotes/views/admin/new.php:154
+msgid "Price"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/orders.new.php:153
+#: ../../../admin/templates/digiprint/modules/mod_quotes/views/admin/new.php:155
+msgid "Total"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/orders.new.php:178
+msgid "Order Comments"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/orders.new.php:197
+msgid "Delivery date"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/orders.new.php:346
+#: ../../../admin/templates/digiprint/modules/mod_quotes/views/admin/new.php:331
+msgid "You need to enter a customer name"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/orders.new.php:351
+#: ../../../admin/templates/digiprint/modules/mod_quotes/views/admin/new.php:336
+msgid "You need to enter a customer nit/ruc/nif"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/orders.new.php:356
+#: ../../../admin/templates/digiprint/modules/mod_quotes/views/admin/new.php:341
+msgid "The nit/ruc/nif is invalid"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/orders.new.php:417
+#: ../../../admin/templates/digiprint/modules/mod_quotes/views/admin/new.php:375
+msgid "You need to select a customer"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/orders.new.php:422
+#: ../../../admin/templates/digiprint/modules/mod_quotes/views/admin/new.php:380
+msgid ""
+"Your quote has no amount, please review your items prices and quantities"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/orders.new.php:473
+#: ../../../admin/templates/digiprint/modules/mod_quotes/views/admin/new.php:450
+msgid "Search Customer"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/orders.new.php:476
+#: ../../../admin/templates/digiprint/modules/mod_quotes/views/admin/new.php:453
+msgid "index.php?mod=customers&view=customers_list"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/orders.new.php:479
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/orders.new.php:495
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/orders.new.php:525
+#: ../../../admin/templates/digiprint/modules/mod_quotes/views/admin/new.php:456
+#: ../../../admin/templates/digiprint/modules/mod_quotes/views/admin/new.php:472
+#: ../../../admin/templates/digiprint/modules/mod_quotes/views/admin/new.php:502
+msgid "Close"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/orders.new.php:489
+#: ../../../admin/templates/digiprint/modules/mod_quotes/views/admin/new.php:466
+msgid "Create Customer"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/orders.new.php:492
+#: ../../../admin/templates/digiprint/modules/mod_quotes/views/admin/new.php:469
+msgid "index.php?mod=customers&view=new&tpl_file=module"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/orders.new.php:506
+#: ../../../admin/templates/digiprint/modules/mod_quotes/views/admin/new.php:483
+msgid "Send Quotation"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/orders.new.php:518
+#: ../../../admin/templates/digiprint/modules/mod_quotes/views/admin/new.php:495
+msgid "Email subject"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/orders.new.php:521
+#: ../../../admin/templates/digiprint/modules/mod_quotes/views/admin/new.php:498
+msgid "Quote message"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/orders.new.php:526
+#: ../../../admin/templates/digiprint/modules/mod_quotes/views/admin/new.php:21
+#: ../../../admin/templates/digiprint/modules/mod_quotes/views/admin/new.php:503
+msgid "Send Quote"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/new_product.php:5
+msgid "New Product / Stock"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/new_product.php:6
+msgid "Edit Product / Stock"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/new_product.php:9
+msgid "Cancel and Back"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/new_product.php:11
+msgid "Save and Add"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/new_product.php:34
+msgid "Product Name"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/new_product.php:41
+msgid "Category:"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/new_product.php:43
+msgid "category"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/new_product.php:53
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/coupons.default.php:25
+msgid "Description"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/new_product.php:56
+#, fuzzy
+msgid "Storage Settings"
+msgstr "Configuracion"
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/new_product.php:64
+msgid "Real Stock in stock and this decreases as purchases"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/new_product.php:68
+msgid "Minimum Stock"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/new_product.php:71
+msgid "Minimum stock for further processing purchase orders in the system."
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/new_product.php:75
+msgid "Stock Alert"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/new_product.php:79
+msgid ""
+"The system alerts by email whenever it is necessary to supply the inventory."
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/new_product.php:84
+msgid "Unit Measure"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/new_product.php:86
+msgid "-- unit measure --"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/new_product.php:93
+msgid ""
+"It refers to the unit to describe the product. Axis. 100 pieces or 20 meters "
+"canvas"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/coupons.default.php:5
+msgid "Discount Coupons"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/coupons.default.php:6
+#, fuzzy
+msgid "index.php?mod=mb&view=coupons.new"
+msgstr "Modulos"
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/coupons.default.php:6
+msgid "New Coupon"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/coupons.default.php:14
+msgid "Search by coupon code or name"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/coupons.default.php:24
+msgid "Coupon Code"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/coupons.default.php:41
+#, fuzzy
+msgid "Active"
+msgstr "Activar"
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/coupons.default.php:43
+#, fuzzy
+msgid "Inactive"
+msgstr "Activar"
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/coupons.default.php:47
+#, fuzzy
+msgid "index.php?mod=mb&task=coupons.delete&id="
+msgstr "Modulos"
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/coupons.default.php:48
+msgid "Are you sure to delete the coupon?"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/orders.default.php:5
+msgid "Orders History"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/orders.default.php:7
+#, fuzzy
+msgid "index.php?mod=mb&view=orders.new"
+msgstr "Modulos"
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/orders.default.php:13
+msgid "Search by order or customer No."
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/orders.default.php:21
+msgid "Num. Order"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/orders.default.php:22
+msgid "Order Date"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/orders.default.php:23
+msgid "Branch office"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/orders.default.php:24
+#: ../../../admin/templates/digiprint/modules/mod_quotes/views/admin/default.php:30
+msgid "Amount"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/orders.default.php:25
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/orders.default.php:50
+msgid "Pending"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/orders.default.php:41
+msgid "Unknow"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/orders.default.php:45
+msgid "Complete"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/orders.default.php:55
+msgid "Cancelled"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/orders.default.php:62
+#, fuzzy
+msgid "index.php?mod=mb&view=orders.edit&id="
+msgstr "Modulos"
+
+#: ../../../admin/templates/digiprint/modules/mod_mb/views/admin/orders.default.php:62
+msgid "Edit order"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_quotes/views/admin/new.php:17
+#, fuzzy
+msgid "index.php?mod=quotes&view=print&id="
+msgstr "Modulos"
+
+#: ../../../admin/templates/digiprint/modules/mod_quotes/views/admin/new.php:111
+msgid "Quote No."
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_quotes/views/admin/new.php:180
+msgid "Quote Comments"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_quotes/views/admin/default.php:7
+#, fuzzy
+msgid "index.php?mod=quotes&view=new"
+msgstr "Modulos"
+
+#: ../../../admin/templates/digiprint/modules/mod_quotes/views/admin/default.php:7
+msgid "New Quote"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_quotes/views/admin/default.php:18
+msgid "Search quote"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_quotes/views/admin/default.php:27
+msgid "Quote Num."
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_quotes/views/admin/default.php:70
+msgid "Void"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_quotes/views/admin/default.php:79
+#, fuzzy
+msgid "index.php?mod=quotes&task=delete&id="
+msgstr "Modulos"
+
+#: ../../../admin/templates/digiprint/modules/mod_quotes/views/admin/default.php:80
+msgid "Are you sure to delete the quote?"
+msgstr ""
+
+#: ../../../admin/templates/digiprint/modules/mod_quotes/views/admin/default.php:85
+#, fuzzy
+msgid "index.php?mod=quotes&view=edit&id="
+msgstr "Modulos"
+
+#: ../../../admin/templates/default/navigation.php:30
+#, php-format
+msgid "Hola %s"
+msgstr "Hello %s"
+
+#: ../../../admin/templates/default/navigation.php:32
+msgid "Mi Perfil"
+msgstr "My Profile"
+
+#: ../../../admin/templates/default/login.php:14
+#, fuzzy
+msgid "Backend Login"
+msgstr "Panel de Administracion"
+
+#: ../../../admin/templates/default/login.php:33
+msgid "Login"
+msgstr ""
+
+#: ../../../include/functions.php:230
+#, fuzzy
+msgid "La sesion ha expirado"
+msgstr "The settings has been saved."
+
+#: ../../../include/functions.php:619
+msgid "-- ciudad --"
+msgstr ""
+
+#: ../../../include/functions.php:785
+msgid "Application Error"
+msgstr ""
+
+#: ../../../include/functions.php:793
+#, fuzzy
+msgid "Back"
+msgstr "Panel de Administracion"
+
+#: ../../../include/countries.php:3
+msgid "Afghanistan"
+msgstr ""
+
+#: ../../../include/countries.php:4
+msgid "&#197;land Islands"
+msgstr ""
+
+#: ../../../include/countries.php:5
+msgid "Albania"
+msgstr ""
+
+#: ../../../include/countries.php:6
+msgid "Algeria"
+msgstr ""
+
+#: ../../../include/countries.php:7
+msgid "Andorra"
+msgstr ""
+
+#: ../../../include/countries.php:8
+msgid "Angola"
+msgstr ""
+
+#: ../../../include/countries.php:9
+msgid "Anguilla"
+msgstr ""
+
+#: ../../../include/countries.php:10
+msgid "Antarctica"
+msgstr ""
+
+#: ../../../include/countries.php:11
+msgid "Antigua and Barbuda"
+msgstr ""
+
+#: ../../../include/countries.php:12
+msgid "Argentina"
+msgstr ""
+
+#: ../../../include/countries.php:13
+msgid "Armenia"
+msgstr ""
+
+#: ../../../include/countries.php:14
+msgid "Aruba"
+msgstr ""
+
+#: ../../../include/countries.php:15
+msgid "Australia"
+msgstr ""
+
+#: ../../../include/countries.php:16
+msgid "Austria"
+msgstr ""
+
+#: ../../../include/countries.php:17
+msgid "Azerbaijan"
+msgstr ""
+
+#: ../../../include/countries.php:18
+msgid "Bahamas"
+msgstr ""
+
+#: ../../../include/countries.php:19
+msgid "Bahrain"
+msgstr ""
+
+#: ../../../include/countries.php:20
+msgid "Bangladesh"
+msgstr ""
+
+#: ../../../include/countries.php:21
+msgid "Barbados"
+msgstr ""
+
+#: ../../../include/countries.php:22
+msgid "Belarus"
+msgstr ""
+
+#: ../../../include/countries.php:23
+msgid "Belgium"
+msgstr ""
+
+#: ../../../include/countries.php:24
+msgid "Belau"
+msgstr ""
+
+#: ../../../include/countries.php:25
+msgid "Belize"
+msgstr ""
+
+#: ../../../include/countries.php:26
+msgid "Benin"
+msgstr ""
+
+#: ../../../include/countries.php:27
+msgid "Bermuda"
+msgstr ""
+
+#: ../../../include/countries.php:28
+msgid "Bhutan"
+msgstr ""
+
+#: ../../../include/countries.php:29
+msgid "Bolivia"
+msgstr ""
+
+#: ../../../include/countries.php:30
+msgid "Bonaire, Saint Eustatius and Saba"
+msgstr ""
+
+#: ../../../include/countries.php:31
+msgid "Bosnia and Herzegovina"
+msgstr ""
+
+#: ../../../include/countries.php:32
+msgid "Botswana"
+msgstr ""
+
+#: ../../../include/countries.php:33
+msgid "Bouvet Island"
+msgstr ""
+
+#: ../../../include/countries.php:34
+msgid "Brazil"
+msgstr ""
+
+#: ../../../include/countries.php:35
+msgid "British Indian Ocean Territory"
+msgstr ""
+
+#: ../../../include/countries.php:36
+msgid "British Virgin Islands"
+msgstr ""
+
+#: ../../../include/countries.php:37
+msgid "Brunei"
+msgstr ""
+
+#: ../../../include/countries.php:38
+msgid "Bulgaria"
+msgstr ""
+
+#: ../../../include/countries.php:39
+msgid "Burkina Faso"
+msgstr ""
+
+#: ../../../include/countries.php:40
+msgid "Burundi"
+msgstr ""
+
+#: ../../../include/countries.php:41
+msgid "Cambodia"
+msgstr ""
+
+#: ../../../include/countries.php:42
+msgid "Cameroon"
+msgstr ""
+
+#: ../../../include/countries.php:43
+msgid "Canada"
+msgstr ""
+
+#: ../../../include/countries.php:44
+msgid "Cape Verde"
+msgstr ""
+
+#: ../../../include/countries.php:45
+msgid "Cayman Islands"
+msgstr ""
+
+#: ../../../include/countries.php:46
+msgid "Central African Republic"
+msgstr ""
+
+#: ../../../include/countries.php:47
+msgid "Chad"
+msgstr ""
+
+#: ../../../include/countries.php:48
+msgid "Chile"
+msgstr ""
+
+#: ../../../include/countries.php:49
+msgid "China"
+msgstr ""
+
+#: ../../../include/countries.php:50
+msgid "Christmas Island"
+msgstr ""
+
+#: ../../../include/countries.php:51
+msgid "Cocos (Keeling) Islands"
+msgstr ""
+
+#: ../../../include/countries.php:52
+msgid "Colombia"
+msgstr ""
+
+#: ../../../include/countries.php:53
+msgid "Comoros"
+msgstr ""
+
+#: ../../../include/countries.php:54
+msgid "Congo (Brazzaville)"
+msgstr ""
+
+#: ../../../include/countries.php:55
+msgid "Congo (Kinshasa)"
+msgstr ""
+
+#: ../../../include/countries.php:56
+msgid "Cook Islands"
+msgstr ""
+
+#: ../../../include/countries.php:57
+msgid "Costa Rica"
+msgstr ""
+
+#: ../../../include/countries.php:58
+msgid "Croatia"
+msgstr ""
+
+#: ../../../include/countries.php:59
+msgid "Cuba"
+msgstr ""
+
+#: ../../../include/countries.php:60
+msgid "Cura&Ccedil;ao"
+msgstr ""
+
+#: ../../../include/countries.php:61
+msgid "Cyprus"
+msgstr ""
+
+#: ../../../include/countries.php:62
+msgid "Czech Republic"
+msgstr ""
+
+#: ../../../include/countries.php:63
+msgid "Denmark"
+msgstr ""
+
+#: ../../../include/countries.php:64
+msgid "Djibouti"
+msgstr ""
+
+#: ../../../include/countries.php:65
+msgid "Dominica"
+msgstr ""
+
+#: ../../../include/countries.php:66
+msgid "Dominican Republic"
+msgstr ""
+
+#: ../../../include/countries.php:67
+msgid "Ecuador"
+msgstr ""
+
+#: ../../../include/countries.php:68
+msgid "Egypt"
+msgstr ""
+
+#: ../../../include/countries.php:69
+msgid "El Salvador"
+msgstr ""
+
+#: ../../../include/countries.php:70
+msgid "Equatorial Guinea"
+msgstr ""
+
+#: ../../../include/countries.php:71
+msgid "Eritrea"
+msgstr ""
+
+#: ../../../include/countries.php:72
+msgid "Estonia"
+msgstr ""
+
+#: ../../../include/countries.php:73
+msgid "Ethiopia"
+msgstr ""
+
+#: ../../../include/countries.php:74
+msgid "Falkland Islands"
+msgstr ""
+
+#: ../../../include/countries.php:75
+msgid "Faroe Islands"
+msgstr ""
+
+#: ../../../include/countries.php:76
+msgid "Fiji"
+msgstr ""
+
+#: ../../../include/countries.php:77
+msgid "Finland"
+msgstr ""
+
+#: ../../../include/countries.php:78
+msgid "France"
+msgstr "Francia"
+
+#: ../../../include/countries.php:79
+msgid "French Guiana"
+msgstr ""
+
+#: ../../../include/countries.php:80
+msgid "French Polynesia"
+msgstr ""
+
+#: ../../../include/countries.php:81
+msgid "French Southern Territories"
+msgstr ""
+
+#: ../../../include/countries.php:82
+msgid "Gabon"
+msgstr ""
+
+#: ../../../include/countries.php:83
+msgid "Gambia"
+msgstr ""
+
+#: ../../../include/countries.php:84
+msgid "Georgia"
+msgstr ""
+
+#: ../../../include/countries.php:85
+msgid "Germany"
+msgstr "Alemania"
+
+#: ../../../include/countries.php:86
+msgid "Ghana"
+msgstr ""
+
+#: ../../../include/countries.php:87
+msgid "Gibraltar"
+msgstr ""
+
+#: ../../../include/countries.php:88
+msgid "Greece"
+msgstr ""
+
+#: ../../../include/countries.php:89
+msgid "Greenland"
+msgstr ""
+
+#: ../../../include/countries.php:90
+msgid "Grenada"
+msgstr ""
+
+#: ../../../include/countries.php:91
+msgid "Guadeloupe"
+msgstr ""
+
+#: ../../../include/countries.php:92
+msgid "Guatemala"
+msgstr ""
+
+#: ../../../include/countries.php:93
+msgid "Guernsey"
+msgstr ""
+
+#: ../../../include/countries.php:94
+msgid "Guinea"
+msgstr ""
+
+#: ../../../include/countries.php:95
+msgid "Guinea-Bissau"
+msgstr ""
+
+#: ../../../include/countries.php:96
+msgid "Guyana"
+msgstr ""
+
+#: ../../../include/countries.php:97
+msgid "Haiti"
+msgstr ""
+
+#: ../../../include/countries.php:98
+msgid "Heard Island and McDonald Islands"
+msgstr ""
+
+#: ../../../include/countries.php:99
+msgid "Honduras"
+msgstr ""
+
+#: ../../../include/countries.php:100
+msgid "Hong Kong"
+msgstr ""
+
+#: ../../../include/countries.php:101
+msgid "Hungary"
+msgstr ""
+
+#: ../../../include/countries.php:102
+msgid "Iceland"
+msgstr ""
+
+#: ../../../include/countries.php:103
+msgid "India"
+msgstr ""
+
+#: ../../../include/countries.php:104
+msgid "Indonesia"
+msgstr ""
+
+#: ../../../include/countries.php:105
+msgid "Iran"
+msgstr ""
+
+#: ../../../include/countries.php:106
+msgid "Iraq"
+msgstr ""
+
+#: ../../../include/countries.php:107
+msgid "Republic of Ireland"
+msgstr ""
+
+#: ../../../include/countries.php:108
+msgid "Isle of Man"
+msgstr ""
+
+#: ../../../include/countries.php:109
+msgid "Israel"
+msgstr ""
+
+#: ../../../include/countries.php:110
+msgid "Italy"
+msgstr ""
+
+#: ../../../include/countries.php:111
+msgid "Ivory Coast"
+msgstr ""
+
+#: ../../../include/countries.php:112
+msgid "Jamaica"
+msgstr ""
+
+#: ../../../include/countries.php:113
+msgid "Japan"
+msgstr ""
+
+#: ../../../include/countries.php:114
+msgid "Jersey"
+msgstr ""
+
+#: ../../../include/countries.php:115
+msgid "Jordan"
+msgstr ""
+
+#: ../../../include/countries.php:116
+msgid "Kazakhstan"
+msgstr ""
+
+#: ../../../include/countries.php:117
+msgid "Kenya"
+msgstr ""
+
+#: ../../../include/countries.php:118
+msgid "Kiribati"
+msgstr ""
+
+#: ../../../include/countries.php:119
+msgid "Kuwait"
+msgstr ""
+
+#: ../../../include/countries.php:120
+msgid "Kyrgyzstan"
+msgstr ""
+
+#: ../../../include/countries.php:121
+msgid "Laos"
+msgstr ""
+
+#: ../../../include/countries.php:122
+msgid "Latvia"
+msgstr ""
+
+#: ../../../include/countries.php:123
+msgid "Lebanon"
+msgstr ""
+
+#: ../../../include/countries.php:124
+msgid "Lesotho"
+msgstr ""
+
+#: ../../../include/countries.php:125
+msgid "Liberia"
+msgstr ""
+
+#: ../../../include/countries.php:126
+msgid "Libya"
+msgstr ""
+
+#: ../../../include/countries.php:127
+msgid "Liechtenstein"
+msgstr ""
+
+#: ../../../include/countries.php:128
+msgid "Lithuania"
+msgstr ""
+
+#: ../../../include/countries.php:129
+msgid "Luxembourg"
+msgstr ""
+
+#: ../../../include/countries.php:130
+msgid "Macao S.A.R., China"
+msgstr ""
+
+#: ../../../include/countries.php:131
+msgid "Macedonia"
+msgstr ""
+
+#: ../../../include/countries.php:132
+msgid "Madagascar"
+msgstr ""
+
+#: ../../../include/countries.php:133
+msgid "Malawi"
+msgstr ""
+
+#: ../../../include/countries.php:134
+msgid "Malaysia"
+msgstr ""
+
+#: ../../../include/countries.php:135
+msgid "Maldives"
+msgstr ""
+
+#: ../../../include/countries.php:136
+msgid "Mali"
+msgstr ""
+
+#: ../../../include/countries.php:137
+msgid "Malta"
+msgstr ""
+
+#: ../../../include/countries.php:138
+msgid "Marshall Islands"
+msgstr ""
+
+#: ../../../include/countries.php:139
+msgid "Martinique"
+msgstr ""
+
+#: ../../../include/countries.php:140
+msgid "Mauritania"
+msgstr ""
+
+#: ../../../include/countries.php:141
+msgid "Mauritius"
+msgstr ""
+
+#: ../../../include/countries.php:142
+msgid "Mayotte"
+msgstr ""
+
+#: ../../../include/countries.php:143
+msgid "Mexico"
+msgstr ""
+
+#: ../../../include/countries.php:144
+msgid "Micronesia"
+msgstr ""
+
+#: ../../../include/countries.php:145
+msgid "Moldova"
+msgstr ""
+
+#: ../../../include/countries.php:146
+msgid "Monaco"
+msgstr ""
+
+#: ../../../include/countries.php:147
+msgid "Mongolia"
+msgstr ""
+
+#: ../../../include/countries.php:148
+msgid "Montenegro"
+msgstr ""
+
+#: ../../../include/countries.php:149
+msgid "Montserrat"
+msgstr ""
+
+#: ../../../include/countries.php:150
+msgid "Morocco"
+msgstr ""
+
+#: ../../../include/countries.php:151
+msgid "Mozambique"
+msgstr ""
+
+#: ../../../include/countries.php:152
+msgid "Myanmar"
+msgstr ""
+
+#: ../../../include/countries.php:153
+msgid "Namibia"
+msgstr ""
+
+#: ../../../include/countries.php:154
+msgid "Nauru"
+msgstr ""
+
+#: ../../../include/countries.php:155
+msgid "Nepal"
+msgstr ""
+
+#: ../../../include/countries.php:156
+msgid "Netherlands"
+msgstr ""
+
+#: ../../../include/countries.php:157
+msgid "Netherlands Antilles"
+msgstr ""
+
+#: ../../../include/countries.php:158
+msgid "New Caledonia"
+msgstr ""
+
+#: ../../../include/countries.php:159
+msgid "New Zealand"
+msgstr ""
+
+#: ../../../include/countries.php:160
+msgid "Nicaragua"
+msgstr ""
+
+#: ../../../include/countries.php:161
+msgid "Niger"
+msgstr ""
+
+#: ../../../include/countries.php:162
+msgid "Nigeria"
+msgstr ""
+
+#: ../../../include/countries.php:163
+msgid "Niue"
+msgstr ""
+
+#: ../../../include/countries.php:164
+msgid "Norfolk Island"
+msgstr ""
+
+#: ../../../include/countries.php:165
+msgid "North Korea"
+msgstr ""
+
+#: ../../../include/countries.php:166
+msgid "Norway"
+msgstr ""
+
+#: ../../../include/countries.php:167
+msgid "Oman"
+msgstr ""
+
+#: ../../../include/countries.php:168
+msgid "Pakistan"
+msgstr ""
+
+#: ../../../include/countries.php:169
+msgid "Palestinian Territory"
+msgstr ""
+
+#: ../../../include/countries.php:170
+msgid "Panama"
+msgstr ""
+
+#: ../../../include/countries.php:171
+msgid "Papua New Guinea"
+msgstr ""
+
+#: ../../../include/countries.php:172
+msgid "Paraguay"
+msgstr ""
+
+#: ../../../include/countries.php:173
+msgid "Peru"
+msgstr ""
+
+#: ../../../include/countries.php:174
+msgid "Philippines"
+msgstr ""
+
+#: ../../../include/countries.php:175
+msgid "Pitcairn"
+msgstr ""
+
+#: ../../../include/countries.php:176
+msgid "Poland"
+msgstr ""
+
+#: ../../../include/countries.php:177
+msgid "Portugal"
+msgstr ""
+
+#: ../../../include/countries.php:178
+msgid "Qatar"
+msgstr ""
+
+#: ../../../include/countries.php:179
+msgid "Reunion"
+msgstr ""
+
+#: ../../../include/countries.php:180
+msgid "Romania"
+msgstr ""
+
+#: ../../../include/countries.php:181
+msgid "Russia"
+msgstr ""
+
+#: ../../../include/countries.php:182
+msgid "Rwanda"
+msgstr ""
+
+#: ../../../include/countries.php:183
+msgid "Saint Barth&eacute;lemy"
+msgstr ""
+
+#: ../../../include/countries.php:184
+msgid "Saint Helena"
+msgstr ""
+
+#: ../../../include/countries.php:185
+msgid "Saint Kitts and Nevis"
+msgstr ""
+
+#: ../../../include/countries.php:186
+msgid "Saint Lucia"
+msgstr ""
+
+#: ../../../include/countries.php:187
+msgid "Saint Martin (French part)"
+msgstr ""
+
+#: ../../../include/countries.php:188
+msgid "Saint Martin (Dutch part)"
+msgstr ""
+
+#: ../../../include/countries.php:189
+msgid "Saint Pierre and Miquelon"
+msgstr ""
+
+#: ../../../include/countries.php:190
+msgid "Saint Vincent and the Grenadines"
+msgstr ""
+
+#: ../../../include/countries.php:191
+msgid "San Marino"
+msgstr ""
+
+#: ../../../include/countries.php:192
+msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe"
+msgstr ""
+
+#: ../../../include/countries.php:193
+msgid "Saudi Arabia"
+msgstr ""
+
+#: ../../../include/countries.php:194
+msgid "Senegal"
+msgstr ""
+
+#: ../../../include/countries.php:195
+msgid "Serbia"
+msgstr ""
+
+#: ../../../include/countries.php:196
+msgid "Seychelles"
+msgstr ""
+
+#: ../../../include/countries.php:197
+msgid "Sierra Leone"
+msgstr ""
+
+#: ../../../include/countries.php:198
+msgid "Singapore"
+msgstr ""
+
+#: ../../../include/countries.php:199
+msgid "Slovakia"
+msgstr ""
+
+#: ../../../include/countries.php:200
+msgid "Slovenia"
+msgstr ""
+
+#: ../../../include/countries.php:201
+msgid "Solomon Islands"
+msgstr ""
+
+#: ../../../include/countries.php:202
+msgid "Somalia"
+msgstr ""
+
+#: ../../../include/countries.php:203
+msgid "South Africa"
+msgstr ""
+
+#: ../../../include/countries.php:204
+msgid "South Georgia/Sandwich Islands"
+msgstr ""
+
+#: ../../../include/countries.php:205
+msgid "South Korea"
+msgstr ""
+
+#: ../../../include/countries.php:206
+msgid "South Sudan"
+msgstr ""
+
+#: ../../../include/countries.php:207
+msgid "Spain"
+msgstr "Espa&ntilde;a"
+
+#: ../../../include/countries.php:208
+msgid "Sri Lanka"
+msgstr ""
+
+#: ../../../include/countries.php:209
+msgid "Sudan"
+msgstr ""
+
+#: ../../../include/countries.php:210
+msgid "Suriname"
+msgstr ""
+
+#: ../../../include/countries.php:211
+msgid "Svalbard and Jan Mayen"
+msgstr ""
+
+#: ../../../include/countries.php:212
+msgid "Swaziland"
+msgstr ""
+
+#: ../../../include/countries.php:213
+msgid "Sweden"
+msgstr ""
+
+#: ../../../include/countries.php:214
+msgid "Switzerland"
+msgstr ""
+
+#: ../../../include/countries.php:215
+msgid "Syria"
+msgstr ""
+
+#: ../../../include/countries.php:216
+msgid "Taiwan"
+msgstr ""
+
+#: ../../../include/countries.php:217
+msgid "Tajikistan"
+msgstr ""
+
+#: ../../../include/countries.php:218
+msgid "Tanzania"
+msgstr ""
+
+#: ../../../include/countries.php:219
+msgid "Thailand"
+msgstr ""
+
+#: ../../../include/countries.php:220
+msgid "Timor-Leste"
+msgstr ""
+
+#: ../../../include/countries.php:221
+msgid "Togo"
+msgstr ""
+
+#: ../../../include/countries.php:222
+msgid "Tokelau"
+msgstr ""
+
+#: ../../../include/countries.php:223
+msgid "Tonga"
+msgstr ""
+
+#: ../../../include/countries.php:224
+msgid "Trinidad and Tobago"
+msgstr ""
+
+#: ../../../include/countries.php:225
+msgid "Tunisia"
+msgstr ""
+
+#: ../../../include/countries.php:226
+msgid "Turkey"
+msgstr ""
+
+#: ../../../include/countries.php:227
+msgid "Turkmenistan"
+msgstr ""
+
+#: ../../../include/countries.php:228
+msgid "Turks and Caicos Islands"
+msgstr ""
+
+#: ../../../include/countries.php:229
+msgid "Tuvalu"
+msgstr ""
+
+#: ../../../include/countries.php:230
+msgid "Uganda"
+msgstr ""
+
+#: ../../../include/countries.php:231
+msgid "Ukraine"
+msgstr ""
+
+#: ../../../include/countries.php:232
+msgid "United Arab Emirates"
+msgstr ""
+
+#: ../../../include/countries.php:233
+msgid "United Kingdom (UK)"
+msgstr ""
+
+#: ../../../include/countries.php:234
+msgid "United States (US)"
+msgstr ""
+
+#: ../../../include/countries.php:235
+msgid "Uruguay"
+msgstr ""
+
+#: ../../../include/countries.php:236
+msgid "Uzbekistan"
+msgstr ""
+
+#: ../../../include/countries.php:237
+msgid "Vanuatu"
+msgstr ""
+
+#: ../../../include/countries.php:238
+msgid "Vatican"
+msgstr ""
+
+#: ../../../include/countries.php:239
+msgid "Venezuela"
+msgstr ""
+
+#: ../../../include/countries.php:240
+msgid "Vietnam"
+msgstr ""
+
+#: ../../../include/countries.php:241
+msgid "Wallis and Futuna"
+msgstr ""
+
+#: ../../../include/countries.php:242
+msgid "Western Sahara"
+msgstr ""
+
+#: ../../../include/countries.php:243
+msgid "Western Samoa"
+msgstr ""
+
+#: ../../../include/countries.php:244
+msgid "Yemen"
+msgstr ""
+
+#: ../../../include/countries.php:245
+msgid "Zambia"
+msgstr ""
+
+#: ../../../include/countries.php:246
+msgid "Zimbabwe"
+msgstr ""
+
+#: ../../../include/classes/class.controller.php:40
+msgid "There is no module to process"
+msgstr ""
+
+#: ../../../include/classes/class.controller.php:66
+#, php-format
+msgid "View \"%s\" not found"
+msgstr "Vista \"%s\" not encontrada"
+
+#: ../../../include/classes/class.table-list.php:131
+msgid "Num"
+msgstr ""
+
+#: ../../../include/classes/class.table-list.php:136
+msgid "Actions"
+msgstr "Acciones"
+
+#: ../../../include/classes/class.table-list.php:183
+#, fuzzy
+msgid "index.php?"
+msgstr "Modulos"
+
+#: ../../../include/classes/class.table-list.php:197
+msgid "There are no records found yet"
+msgstr "No se encontraron registros"
+
+#: ../../../include/classes/class.application.php:220
+msgid "cron.php"
+msgstr ""
+
+#: ../../../install/success.php:122
+msgid "Administrar Modulos"
+msgstr ""
+
+#: ../../../install/success.php:138
+msgid "Habilitar Modulo"
+msgstr ""
+
+#: ../../../install/success.php:146
+msgid "Deshabilitar Modulo"
+msgstr ""
+
+#: ../../../install/success.php:154
+#, fuzzy
+msgid "Administrar Backend"
+msgstr "Access to backend"
+
+#: ../../../install/success.php:161
+msgid "Crear Rol Admin"
+msgstr ""
+
+#: ../../../install/success.php:168
+#, fuzzy
+msgid "Crear Rol Usuario"
+msgstr "User:"
+
+#: ../../../install/success.php:175
+msgid "Crear Rol Invitado"
+msgstr ""
+
+#: ../../../install/success.php:241
+msgid "Instalacion FINALIZADA CORRECTAMENTE."
+msgstr ""
+
+#: ../../../install/success.php:245
+#, fuzzy
+msgid "Acceder al FrontEnd"
+msgstr "Access to backend"
+
+#: ../../../install/success.php:248
+msgid "admin/index.php"
+msgstr ""
+
+#: ../../../install/success.php:249
+#, fuzzy
+msgid "Acceder al BackEnd"
+msgstr "Access to backend"
+
+#: ../../../install/success.php:251
+msgid "Datos de Acceso al BackEnd:"
+msgstr ""
+
+#: ../../../install/success.php:253 ../../../install/index.php:327
+msgid "Usuario:"
+msgstr "User:"
+
+#: ../../../install/success.php:254 ../../../install/index.php:387
+msgid "Contrase&ntilde;a:"
+msgstr "Password:"
+
+#: ../../../install/success.php:257
+msgid ""
+"Aviso de seguridad: Recuerda BORRAR o cambiar el nombre al directorio /"
+"install"
+msgstr ""
+
+#: ../../../install/index.php:43
+msgid "Conexion exitosa"
+msgstr "Connection successfull."
+
+#: ../../../install/index.php:95
+msgid "Debe ingresar el servidor de base de datos."
+msgstr ""
+
+#: ../../../install/index.php:100
+msgid "Debe ingresar el nombre de la base de datos."
+msgstr ""
+
+#: ../../../install/index.php:105
+msgid "Debe ingresar el usuario de base de datos."
+msgstr ""
+
+#: ../../../install/index.php:110
+msgid "Debe ingresar una contrase&ntilde;a para root."
+msgstr ""
+
+#: ../../../install/index.php:221
+msgid "Debe ingresar el servidor de base de datos"
+msgstr ""
+
+#: ../../../install/index.php:227
+msgid "Debe ingresar el nombre de la base de datos"
+msgstr ""
+
+#: ../../../install/index.php:233
+msgid "Debe ingresar el usuario de base de datos"
+msgstr ""
+
+#: ../../../install/index.php:249
+msgid "Bienvenido a la installacion de Little CMS."
+msgstr ""
+
+#: ../../../install/index.php:254
+msgid "Requerimiento"
+msgstr ""
+
+#: ../../../install/index.php:255
+msgid "Satisface"
+msgstr ""
+
+#: ../../../install/index.php:281
+msgid "Acuerdo de licencia"
+msgstr "Licence agreement"
+
+#: ../../../install/index.php:293 ../../../install/index.php:365
+msgid "Siguiente"
+msgstr "Next"
+
+#: ../../../install/index.php:300
+msgid "Configuracion Base de Datos"
+msgstr "Database Settings"
+
+#: ../../../install/index.php:305
+msgid "Base de Datos:"
+msgstr ""
+
+#: ../../../install/index.php:315
+msgid "Servidor:"
+msgstr "Server:"
+
+#: ../../../install/index.php:321
+msgid "Nombre Base de Datos:"
+msgstr "Database Name:"
+
+#: ../../../install/index.php:333
+msgid "Constrase&ntilde;a:"
+msgstr "Password:"
+
+#: ../../../install/index.php:340
+msgid "Verificar conexion"
+msgstr "Verify connection"
+
+#: ../../../install/index.php:348
+msgid "Seleccion de Idioma"
+msgstr ""
+
+#: ../../../install/index.php:356
+msgid "Idioma"
+msgstr ""
+
+#: ../../../install/index.php:358
+msgid "Ingles"
+msgstr ""
+
+#: ../../../install/index.php:359
+msgid "Español"
+msgstr ""
+
+#: ../../../install/index.php:373
+msgid "Administracion"
+msgstr "Management"
+
+#: ../../../install/index.php:379
+msgid "URL Instalacion:"
+msgstr "Installation URL:"
+
+#: ../../../install/index.php:385
+msgid "Ingrese una contrase&ntilde;a para el usuario de administracion"
+msgstr ""
+
+#: ../../../install/index.php:393
+msgid "Terminado"
+msgstr "Finished"
+
+#: ../../../install/index.php:401
+msgid ""
+"El servidor no cumple con los requerimientos minimos necesarios, porfavor "
+"verifique que tiene los requerimientos instalados."
+msgstr ""
+
+#~ msgid "Instalaci&oacute;n completada."
+#~ msgstr "Installation complete."
+
+#~ msgid "su contrase&ntilde;a"
+#~ msgstr "your password"
+
+#~ msgid "Configuraci&oacute;n"
+#~ msgstr "Settings"
+
+#~ msgid "Ajustes"
+#~ msgstr "Settings"
+
+#~ msgid "M&oacute;dulos"
+#~ msgstr "Modules"
+
+#~ msgid "Volver"
+#~ msgstr "Back"
+
+#~ msgid "Nombres:"
+#~ msgstr "Firstname:"
+
+#~ msgid "Apellidos:"
+#~ msgstr "Lastname:"
+
+#~ msgid "Perfil"
+#~ msgstr "Profile"
+
+#~ msgid "Dejar en blanco para no actualizar."
+#~ msgstr "Leave blank to no update"
+
+#~ msgid "Guardar"
+#~ msgstr "Save"

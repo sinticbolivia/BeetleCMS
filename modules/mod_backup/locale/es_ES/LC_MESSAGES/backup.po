@@ -1,0 +1,126 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Mono Business Backup Module\n"
+"POT-Creation-Date: 2016-07-12 20:10-0400\n"
+"PO-Revision-Date: 2016-07-12 20:11-0400\n"
+"Last-Translator: J. Marcelo Aviles Paco <maviles@sinticbolivia.net>\n"
+"Language-Team: Sintic Bolivia <info@sinticbolivia.net>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.11\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ../../..\n"
+
+#: ../../../admin.controller.php:31
+msgid "Ocurrio un error al realizar la copia de seguridad."
+msgstr ""
+
+#: ../../../admin.controller.php:32 ../../../admin.controller.php:80
+#: ../../../admin.controller.php:84 ../../../admin.controller.php:89
+#: ../../../admin.controller.php:122 ../../../admin.controller.php:125
+#: ../../../init.php:20
+#, fuzzy
+msgid "index.php?mod=backup"
+msgstr "index.php?mod=quotes"
+
+#: ../../../admin.controller.php:83
+msgid "El archivo es demasiado grande, compruebe la configuracion de PHP."
+msgstr ""
+
+#: ../../../admin.controller.php:88
+msgid "Backup no valido"
+msgstr ""
+
+#: ../../../admin.controller.php:121
+msgid "Base de datos restaurada correctamente."
+msgstr ""
+
+#: ../../../admin.controller.php:124
+msgid "Ocurrio un error al restaurar la base de datos."
+msgstr ""
+
+#: ../../../init.php:19 ../../../views/admin/default.php:4
+msgid "Backups"
+msgstr ""
+
+#: ../../../on_enabled.php:5
+msgid "Manage Database Backup"
+msgstr "Administrar Backup Base de Datos"
+
+#: ../../../on_enabled.php:6
+msgid "Create Database Backup"
+msgstr "Crear Backup Base de Datos"
+
+#: ../../../on_enabled.php:7
+msgid "Restore Database Backup"
+msgstr "Restaurar Backup Base de Datos"
+
+#: ../../../on_enabled.php:8
+msgid "Backup files"
+msgstr "Restaurar Archivos"
+
+#: ../../../views/admin/default.php:7
+msgid "BACKUP_TABLES"
+msgstr ""
+
+#: ../../../views/admin/default.php:7
+msgid "Tablas"
+msgstr ""
+
+#: ../../../views/admin/default.php:22
+#, fuzzy
+msgid "BACKUP_FILES"
+msgstr "Suelte sus archivos aqui"
+
+#: ../../../views/admin/default.php:23
+msgid "Realizar copia de archivos"
+msgstr ""
+
+#: ../../../views/admin/default.php:28
+#, fuzzy
+msgid "BACKUP_BUTTON_START"
+msgstr "Fecha Inicio"
+
+#: ../../../views/admin/default.php:29
+msgid "Realizar Backup"
+msgstr ""
+
+#: ../../../views/admin/default.php:34
+msgid "BACKUP_RESTORE"
+msgstr ""
+
+#: ../../../views/admin/default.php:35
+msgid "Restaurar Backup"
+msgstr ""
+
+#: ../../../views/admin/default.php:41
+#, fuzzy
+msgid "BACKUP_UPLOAD_FILE"
+msgstr "Subir un archivo"
+
+#: ../../../views/admin/default.php:42
+msgid "Archivo SQL"
+msgstr ""
+
+#: ../../../views/admin/default.php:46
+msgid "BACKUP_MAX_FILE_SIZE"
+msgstr ""
+
+#: ../../../views/admin/default.php:47
+#, php-format
+msgid "Tamaño maximo de archivo: %s"
+msgstr ""
+
+#: ../../../views/admin/default.php:49
+#, fuzzy
+msgid "BACKUP_BUTTON_RESTORE"
+msgstr "Mostrar boton 'pregunta anterior'"
+
+#: ../../../views/admin/default.php:50
+msgid "Restaurar"
+msgstr ""
