@@ -88,7 +88,7 @@ class LT_AdminControllerForms extends SB_Controller
 	public function task_delete()
 	{
 		$id = SB_Request::getInt('id');
-		$query = "DELETE FROM forms WHERE form_id = $id LIMIT 1";
+		$query = "DELETE FROM forms WHERE form_id = $id";
 		$dbh = SB_Factory::getDbh();
 		$dbh->Query($query);
 		SB_MessagesStack::AddMessage(SBText::_('El formulario fue borrado correctamente.'), 'success');
