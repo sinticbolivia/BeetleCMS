@@ -242,8 +242,9 @@ function sb_is_user_logged_in($cookie_name = null)
 }
 function sb_set_view_var($name, $value, $view = null)
 {
-	global $view_vars; //##declare global variable
-	
+	//global $view_vars; //##declare global variable
+	SB_Factory::getApplication()->GetController()->SetVar($name, $value);
+	/*	
 	if( $view_vars == null || !is_array($view_vars) )
 		$view_vars = array();
 	$view = $view ? $view : SB_Request::getString('view', 'default');
@@ -252,6 +253,7 @@ function sb_set_view_var($name, $value, $view = null)
 		$view_vars[$view] = array();
 	}
 	$view_vars[$view][$name] = $value;
+	*/
 }
 function sb_include_module_helper($module)
 {

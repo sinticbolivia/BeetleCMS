@@ -38,15 +38,16 @@ function sb_get_categories($parent_id = 0)
 {
 	$parent_id = (int)$parent_id;
 	$query = "SELECT * FROM categories ";
-	if( $parent_id )
-	{
-		$query .= "WHERE parent_id = $parent_id ";
-	}
+	$query .= "WHERE parent_id = $parent_id ";
+	
 	$cats = SB_Factory::getDbh()->FetchResults($query);
+	
 	foreach($cats as $i => $c)
 	{
+		//print_r($cats);die($query);
 		$cats[$i]->childs = sb_get_categories($c->category_id);
 	}
+	
 	return $cats;
 }
 function sb_sections_dropdown($args = array())
@@ -187,6 +188,7 @@ function sb_categories_html_list($args = array())
 	}
 	endif;
 	$sections = sb_get_categories();
+	
 	$select = '<ul id="'.$args['id'].'" class="'.$args['class'].'">';
 	foreach($sections as $s)
 	{

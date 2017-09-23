@@ -278,7 +278,7 @@ if( !isset($content) )
 					</div>
 				</div>
 				<?php endif; ?>
-				<?php if( /*isset($content) &&*/ $features['featured_image'] ): ?>
+				<?php if( /*isset($content) &&*/ isset($features['featured_image']) && $features['featured_image'] ): ?>
 				<div class="panel panel-default">
 					<div class="panel-heading">
 						<h2 class="panel-title has-popover" data-content="<?php print SBText::_('CONTENT_WH_FEATURED_IMAGE'); ?>">
