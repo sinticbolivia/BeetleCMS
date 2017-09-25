@@ -197,7 +197,7 @@
 }
 .topnavbar .navbar-header .navbar-brand{padding:0}.topnavbar .navbar-header .brand-logo-collapsed>img,
 .topnavbar .navbar-header .brand-logo>img{margin:0 auto;max-width:100%;max-height:100%;}
-.topnavbar .navbar-header .brand-logo{display:block;padding:10px 15px}
+.topnavbar .navbar-header .brand-logo{display:block;padding:/*10px 15px*/5px;height:100%;}
 .topnavbar .navbar-header .brand-logo-collapsed{display:none;padding:6px 15px}
 .topnavbar .navbar-nav>.open>a,.topnavbar .navbar-nav>li>a{color:#23b7e5}
 .topnavbar .navbar-nav>.open>a:focus,.topnavbar .navbar-nav>.open>a:hover,.topnavbar .navbar-nav>li>a:focus,

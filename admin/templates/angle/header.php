@@ -62,10 +62,10 @@ $user = sb_get_current_user();
             <div class="navbar-header">
                <a href="" class="navbar-brand">
                   <div class="brand-logo">
-                     <img src="<?php print TEMPLATE_URL; ?>/img/logo.png" alt="App Logo" class="img-responsive">
+                     <img src="<?php print BASEURL; ?>/images/logo.png" alt="App Logo" class="img-responsive">
                   </div>
                   <div class="brand-logo-collapsed">
-                     <img src="<?php print TEMPLATE_URL; ?>/img/logo-single.png" alt="App Logo" class="img-responsive">
+                     <img src="<?php print BASEURL; ?>/images/logo.png" alt="App Logo" class="img-responsive">
                   </div>
                </a>
             </div>

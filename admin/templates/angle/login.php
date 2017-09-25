@@ -27,7 +27,7 @@ lt_add_js('jquery');
 		<div class="panel panel-dark panel-flat">
 			<div class="panel-heading text-center">
                <a href="#">
-                  <img src="<?php print TEMPLATE_URL; ?>/img/logo.png" alt="Image" class="block-center img-rounded">
+                  <img src="<?php print BASEURL; ?>/images/logo.png" alt="Image" class="block-center img-rounded" style="max-width:100%;" />
                </a>
             </div>
             <div class="panel-body">
