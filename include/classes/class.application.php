@@ -147,7 +147,11 @@ class SB_Application extends SB_Object
 	public function ProcessModule($mod)
 	{	
 		if( !$mod )
+		{
+			//##create a dummy controller
+			$this->controller = new SB_Controller();
 			return false;
+		}
 		$this->module	= $mod;
 		SB_Request::setVar('mod', $mod);
 		
