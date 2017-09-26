@@ -3,33 +3,62 @@ class LT_AdminControllerBackup extends SB_Controller
 {
 	public function task_default()
 	{
-		$dbh = SB_Factory::getDbh();
-		$dbh->Query("SHOW TABLES");
-		sb_set_view_var('tables', $dbh->FetchResults());
+		$tables = array();
+		if( $this->dbh->db_type == 'mysql' )
+		{
+			$dbh->Query("SHOW TABLES");
+			foreach($this->dbh->FetchResults() as $row)
+			{
+				$tables[] = (object)array('name' => $t->{'Tables_in_'.DB_NAME});
+			}
+		}
+		elseif( $this->dbh->db_type == 'sqlite' || $this->dbh->db_type == 'sqlite3' )
+		{
+			foreach($this->dbh->FetchResults("SELECT name FROM sqlite_master WHERE type = 'table'") as $row)
+			{
+				$tables[] = (object)array('name' => $row->name);
+			} 
+		}
+		sb_set_view_var('tables', $tables);
 	}
 	public function task_do_backup()
 	{
 		$tables = SB_Request::getVar('tables', array());
-		$dbh = SB_Factory::getDbh();
-		$dbh->Query("SHOW TABLES");
 		$db_tables = array();
-		foreach($dbh->FetchResults() as $t)
+		$dump_file = null;
+		if( $this->dbh->db_type == 'sqlite' || $this->dbh->db_type == 'sqlite3' )
 		{
-			$db_tables[] = $t->{'Tables_in_'.DB_NAME};
+			/*
+			foreach($this->dbh->FetchResults("SELECT name FROM sqlite_master WHERE type = 'table'") as $row)
+			{
+				$db_tables[] = $row->name;
+			} 
+			*/
+			$dump_file = TEMP_DIR . SB_DS . basename(DB_NAME);
+			copy(BASEPATH . SB_DS . 'db' . SB_DS . DB_NAME, $dump_file);
 		}
-		$skip_tables = array_diff($db_tables, $tables);
-		$ignore = '';
-		foreach($skip_tables as $table)
+		elseif( $this->dbh->db_type == 'mysql' )
 		{
-			$ignore .= sprintf("--ignore-table=%s.%s ", DB_NAME, $table);
-		}
-		$dump_file = TEMP_DIR . SB_DS . "database-dump.sql";
-		$cmd = sprintf("/usr/bin/mysqldump -u %s -p%s \"%s\" %s > \"%s\"", DB_USER, DB_PASS, DB_NAME, $ignore, $dump_file);
-		system($cmd);
-		if( !file_exists($dump_file) )
-		{
-			SB_MessagesStack::AddMessage(SB_Text::_('Ocurrio un error al realizar la copia de seguridad.'), 'error');
-			sb_redirect(SB_Route::_('index.php?mod=backup'));
+			$this->dbh->Query("SHOW TABLES");
+			
+			foreach($this->dbh->FetchResults() as $t)
+			{
+				$db_tables[] = $t->{'Tables_in_'.DB_NAME};
+			}
+			$skip_tables = array_diff($db_tables, $tables);
+			$ignore = '';
+			foreach($skip_tables as $table)
+			{
+				$ignore .= sprintf("--ignore-table=%s.%s ", DB_NAME, $table);
+			}
+			$dump_file = TEMP_DIR . SB_DS . "database-dump.sql";
+			$cmd = sprintf("/usr/bin/mysqldump -u %s -p%s \"%s\" %s > \"%s\"", DB_USER, DB_PASS, DB_NAME, $ignore, $dump_file);
+			system($cmd);
+			if( !file_exists($dump_file) )
+			{
+				SB_MessagesStack::AddMessage(__('An error ocurred while trying to build the backup.', 'backup'), 'error');
+				sb_redirect(SB_Route::_('index.php?mod=backup'));
+			}
 		}
 		$uploads_zip 	= TEMP_DIR . SB_DS . 'uploads.zip';
 		$template_zip 	= TEMP_DIR . SB_DS . 'template.zip';
@@ -48,7 +77,7 @@ class LT_AdminControllerBackup extends SB_Controller
 			$zip->Save();
 			*/
 		}
-		$backup_file = TEMP_DIR . SB_DS . sprintf("backup-cms-%s.zip", date('Y-m-d-H:i:s'));
+		$backup_file = TEMP_DIR . SB_DS . sprintf("backup-beetle-cms-%s.zip", date('Y-m-d-H:i:s'));
 		$zip = new SB_Compress();
 		$zip->DestinationFile = $backup_file;
 		$zip->CompressFiles(array($uploads_zip, /*$template_zip,*/ $dump_file));

@@ -34,11 +34,11 @@ function sb_get_content_sections($parent_id = 0, $for_object = 'page')
 	
 	return $sections;
 }
-function sb_get_categories($parent_id = 0)
+function sb_get_categories($parent_id = 0, $lang = LANGUAGE)
 {
 	$parent_id = (int)$parent_id;
 	$query = "SELECT * FROM categories ";
-	$query .= "WHERE parent_id = $parent_id ";
+	$query .= "WHERE parent_id = $parent_id AND lang_code = '$lang'";
 	
 	$cats = SB_Factory::getDbh()->FetchResults($query);
 	
