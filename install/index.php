@@ -46,9 +46,12 @@ if( $task == 'test_connection' )
 		if( $db == 'sqlite3' )
 		{
 			include dirname(dirname(__FILE__)) . DIRECTORY_SEPARATOR . 'include' . DIRECTORY_SEPARATOR . 'database' . DIRECTORY_SEPARATOR . 'database.sqlite3.php';
-			$db_name = preg_replace('/\s+/', ' ', trim($_POST['db_name']));
-			$db_name = preg_replace('/[^a-zA-z0-9-_]/', '-', $db_name);
-			$db_file = dirname(dirname(__FILE__)) . SB_DS . 'db' . SB_DS . $db_name . '.sqlite3';
+			$db_name 	= preg_replace('/\s+/', ' ', trim($_POST['db_name']));
+			$db_name 	= preg_replace('/[^a-zA-z0-9-_]/', '-', $db_name);
+			$db_dir		= dirname(dirname(__FILE__)) . SB_DS . 'db';
+			if( !is_dir($db_dir) )
+				mkdir($db_dir);
+			$db_file 	= $db_dir . SB_DS . $db_name . '.sqlite3';
 			$dbh = new SB_Sqlite3($db_file);
 			$dbh->Close();
 		}
