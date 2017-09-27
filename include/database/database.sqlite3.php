@@ -10,6 +10,9 @@ class SB_Sqlite3 extends SB_Database
 		$this->lcw = '[';
 		$this->rcw = ']';
 		$this->dbh = new SQLite3($db_name);
+		$this->dbh->busyTimeout(3500);
+		//##set journal mode
+		$this->dbh->exec('PRAGMA journal_mode = wal;');
 	}
 	public function Query($query)
 	{
@@ -20,8 +23,9 @@ class SB_Sqlite3 extends SB_Database
 			throw new Exception("SQLITE3 ERROR: Invalid query, it is empty or null");
 		$this->_rows = 0;
 		$this->lastQuery = $query;
-		if( strtolower($query) == 'begin' || strtolower($query) == 'commit' )
+		if( preg_match('/begin|commit/i', $query) )
 		{
+			$this->dbh->exec($query);
 			return true;
 		}
 		if( preg_match('/insert\s+into|update|delete\s+from/isU', $query) )
@@ -44,17 +48,18 @@ class SB_Sqlite3 extends SB_Database
 		$this->result = $this->dbh->query($query);
 		
 		if( !$this->result )
+		{
+			//$this->result->finalize();
 			throw new Exception("SQLite3 ERROR: " . $this->dbh->lastErrorMsg() . " QUERY WAS: " . $query);
+		}
 		if( $this->result->numColumns() > 0 )
 		{
-			$this->result->reset();
+			//$this->result->reset();
 			while( $_r = $this->result->fetchArray(SQLITE3_ASSOC) )
 			{
 				$this->_rows++;
 			}
 			$this->result->reset();
-			
-			
 		}
 		else
 		{

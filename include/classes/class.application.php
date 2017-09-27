@@ -110,6 +110,11 @@ class SB_Application extends SB_Object
 		}
 		SB_Module::do_action('init');
 	}
+	/**
+	 * Load default language for application
+	 * 
+	 * @return  
+	 */
 	public function LoadLanguage()
 	{
 		$r_lang		= SB_Request::getString('lang');
