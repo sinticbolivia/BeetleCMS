@@ -233,7 +233,7 @@ class SB_Application extends SB_Object
 		$view 			= SB_Request::getString('view', 'default');
 		
 		SB_Module::do_action('before_process_template');
-		$template_dir 	= sb_get_template_dir();//defined('LT_ADMIN') ? ADM_TEMPLATES_DIR : TEMPLATES_DIR;
+		$template_dir 	= sb_get_template_dir();
 		$template_url	= sb_get_template_url();
 		$mod			= SB_Request::getString('mod', null);
 		
@@ -270,8 +270,8 @@ class SB_Application extends SB_Object
 		$tpl_file = SB_Module::do_action('template_file', $tpl_file);
 		$this->htmlDocument->AddBodyClass('tpl-' . str_replace('.php', '', $tpl_file));
 		//extract(isset($view_vars[$view]) ? $view_vars[$view] : array());
-		$vars = $this->GetController()->viewVars;
-		extract($vars);
+		$vars = $this->GetController() ? $this->GetController()->viewVars : array();
+		count($vars) && extract($vars);
 		ob_start();
 		require_once $template_dir. SB_DS . $tpl_file;
 		$this->templateHtml = ob_get_clean();

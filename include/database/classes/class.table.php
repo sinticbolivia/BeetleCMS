@@ -57,7 +57,7 @@ class SB_DbTable extends SB_Object
 		}
 		if( $default )
 			$DDL .= "DEFAULT $default ";
-		if( $after && isset($this->columns[$after] ) )
+		if( $this->dbh->db_type == 'mysql' && $after && isset($this->columns[$after] ) )
 			$DDL .= "AFTER $after ";
 		$this->dbh->Query($DDL);
 	}
@@ -140,7 +140,7 @@ class SB_DbTable extends SB_Object
 			$exists = $dbh->FetchRow("show tables LIKE '{$table}'");
 			if( $exists )
 			{
-				$_cols = $this->dbh->FetchResults("SHOW COLUMNS FROM {$table}");
+				$_cols = $dbh->FetchResults("SHOW COLUMNS FROM {$table}");
 				foreach($_cols as $col)
 				{
 					$cols[$col->Field] = $col;
@@ -223,7 +223,7 @@ class SB_DbTable extends SB_Object
 					"LIMIT 1";
 					
 		$row = $this->dbh->FetchRow($query, $class);
-		if( $row ) $row->table = $this;
+		if( $row && $class == 'SB_DbRow' ) $row->table = $this;
 		return $row;
 		/*
 		if( $class == null )
