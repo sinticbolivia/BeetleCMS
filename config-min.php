@@ -15,7 +15,7 @@ define('APPLICATIONS_DIR', BASEPATH . SB_DS . 'apps');
 define('UPLOADS_DIR', BASEPATH . SB_DS . 'uploads');
 define('TEMP_DIR', BASEPATH . SB_DS . 'temp');
 define('HTTP_HOST', (isset($_SERVER['REQUEST_SCHEME']) ? $_SERVER['REQUEST_SCHEME'] : 'http') . '://' . $_SERVER['HTTP_HOST']);
-define('BASEURL', HTTP_HOST . 'little-cms');
+define('BASEURL', HTTP_HOST . '');
 define('ADMIN_URL', BASEURL . '/admin');
 define('MODULES_URL', BASEURL . '/modules');
 define('TEMPLATES_URL', BASEURL . '/templates');
