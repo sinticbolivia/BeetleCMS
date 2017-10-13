@@ -12,7 +12,7 @@ abstract class LT_BaseTheme
 	{
 		if( $this->settingsTab )
 		{
-			$this->settingsKey = sb_build_slug($this->settingsTab);
+			$this->settingsKey = $this->settingsKey ? $this->settingsKey : sb_build_slug($this->settingsTab);
 			//##load theme settings
 			$this->LoadSettings();
 		}
@@ -136,4 +136,11 @@ abstract class LT_BaseTheme
 		$var = $prefix . $var;
 		return isset($this->settings->$var) ? $this->settings->$var : null;
 	}
+    public function ParseXML($theme_dir)
+    {
+        $xml_file = $theme_dir . SB_DS . 'setup.xml';
+        if( !is_file($xml_file) )
+            return false;
+        $data = simplexml_load_file($xml_file);
+    }
 }

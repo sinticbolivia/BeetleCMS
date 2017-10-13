@@ -58,4 +58,8 @@ class SB_DbRow extends SB_Object
 		}
 		return $data;
 	}
+    public function jsonSerialize()
+	{
+		return $this->GetRowData();
+	}
 }
