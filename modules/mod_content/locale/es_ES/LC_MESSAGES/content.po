@@ -1,0 +1,1065 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Little CMS Content Module\n"
+"POT-Creation-Date: 2017-11-06 22:49-0400\n"
+"PO-Revision-Date: 2017-11-06 23:16-0400\n"
+"Last-Translator: J. Marcelo Aviles Paco <maviles@sinticbolivia.net>\n"
+"Language-Team: Sintic Bolivia <info@sinticbolivia.net>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;SBText::_;SB_Text::_\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ../../..\n"
+
+#: ../../../admin.controller.php:21
+#, php-format
+msgid "The content type \"%s\" does not exists"
+msgstr "El tipo de contenido \"%s\" no existe"
+
+#: ../../../admin.controller.php:62
+msgid "index.php?mod=content&view=new&type="
+msgstr ""
+
+#: ../../../admin.controller.php:63
+msgid "index.php?mod=content&view=new"
+msgstr ""
+
+#: ../../../admin.controller.php:66 ../../../admin.controller.php:67
+#: ../../../admin.controller.php:68 ../../../admin.controller.php:69
+#: ../../../admin.controller.php:70 ../../../admin.controller.php:223
+#: ../../../views/admin/new.php:2
+msgid "index.php?mod=content&type="
+msgstr ""
+
+#: ../../../admin.controller.php:92
+msgid "Create New Content"
+msgstr "Crear Nuevo Contenido"
+
+#: ../../../admin.controller.php:100
+msgid "index.php?mod=content&task=remove_banner&id=temp"
+msgstr ""
+
+#: ../../../admin.controller.php:101
+msgid "index.php?mod=content&task=upload_banner"
+msgstr ""
+
+#: ../../../admin.controller.php:102
+msgid "index.php?mod=content&task=upload_featured_image"
+msgstr ""
+
+#: ../../../admin.controller.php:127
+msgid "The content identifier is invalid."
+msgstr "El identificador de contenido es invalido."
+
+#: ../../../admin.controller.php:134
+msgid "The content does not exists."
+msgstr "El contenido no existe."
+
+#: ../../../admin.controller.php:145
+msgid "index.php?mod=content&task=remove_banner&id="
+msgstr ""
+
+#: ../../../admin.controller.php:158
+msgid "index.php?mod=content&task=upload_banner&id="
+msgstr ""
+
+#: ../../../admin.controller.php:159
+msgid "index.php?mod=content&task=upload_featured_image&id="
+msgstr ""
+
+#: ../../../admin.controller.php:166
+msgid "Edit Content"
+msgstr "Editar Contenido"
+
+#: ../../../admin.controller.php:194
+msgid "You must enter a title."
+msgstr "Necesita ingresar un titulo."
+
+#: ../../../admin.controller.php:222
+msgid "New content created."
+msgstr "Nuevo contenido creado"
+
+#: ../../../admin.controller.php:242
+msgid "Content updated."
+msgstr "Contenido actualizado."
+
+#: ../../../admin.controller.php:243 ../../../views/admin/default.php:77
+#: ../../../views/admin/posts.default.php:74
+msgid "index.php?mod=content&view=edit&id="
+msgstr ""
+
+#: ../../../admin.controller.php:313 ../../../admin.controller.php:319
+msgid "Contente identifier is invalid."
+msgstr "Identificador de contenido invalido."
+
+#: ../../../admin.controller.php:328
+msgid "Content deleted."
+msgstr "Contenido borrado."
+
+#: ../../../admin.controller.php:464
+msgid "El orden se cambio correctamente."
+msgstr ""
+
+#: ../../../admin.controller.php:465 ../../../init.php:95 ../../../init.php:97
+#: ../../../init.php:137 ../../../views/admin/new.php:2
+msgid "index.php?mod=content"
+msgstr ""
+
+#: ../../../admin.controller.php:471 ../../../admin.controller.php:475
+msgid "You cant do this"
+msgstr "No puedes hacer esto"
+
+#: ../../../admin.controller.php:533
+msgid "Image identifier is invalid"
+msgstr "Identificador de imagen invalido"
+
+#: ../../../admin.controller.php:538
+msgid "The image does not exists"
+msgstr "La imagen no existe"
+
+#: ../../../admin.controller.php:552
+msgid "Imagen destacada borrada"
+msgstr ""
+
+#: ../../../controller.php:20
+msgid "Home"
+msgstr "Inicio"
+
+#: ../../../controller.php:147
+#, php-format
+msgid "Search results for \"%s\""
+msgstr "Resultados de busqueda para \"%s\""
+
+#: ../../../controllers/admin.controller.categories.php:40
+msgid "index.php?mod=content&view=categories.default&order_by=section_id&order="
+msgstr ""
+
+#: ../../../controllers/admin.controller.categories.php:41
+msgid "index.php?mod=content&view=categories.default&order_by=name&order="
+msgstr ""
+
+#: ../../../controllers/admin.controller.categories.php:42
+msgid "index.php?mod=content&view=categories.default&order_by=creation_date&order="
+msgstr ""
+
+#: ../../../controllers/admin.controller.categories.php:43
+msgid "index.php?mod=content&view=categories.default&order_by=publish_date&order="
+msgstr ""
+
+#: ../../../controllers/admin.controller.categories.php:44
+msgid "index.php?mod=content&view=categories.default&order_by=end_date&order="
+msgstr ""
+
+#: ../../../controllers/admin.controller.categories.php:45
+msgid "index.php?mod=content&view=categories.default&order_by=show_order&order="
+msgstr ""
+
+#: ../../../controllers/admin.controller.categories.php:53
+#: ../../../controllers/admin.controller.categories.php:69
+msgid "You dont have enough permissions"
+msgstr "No tiene suficientes permisos"
+
+#: ../../../controllers/admin.controller.categories.php:58
+msgid "New Category"
+msgstr "Nueva Categoria"
+
+#: ../../../controllers/admin.controller.categories.php:74
+msgid "The category identifier is invalid"
+msgstr "El identificador de categoria es invalido"
+
+#: ../../../controllers/admin.controller.categories.php:75
+#: ../../../controllers/admin.controller.categories.php:81
+#: ../../../controllers/admin.controller.categories.php:147
+#: ../../../controllers/admin.controller.categories.php:174
+#: ../../../controllers/admin.controller.categories.php:180
+#: ../../../controllers/admin.controller.categories.php:187
+#: ../../../init.php:104 ../../../views/admin/categories.new.php:10
+#: ../../../views/admin/categories.new.php:56
+msgid "index.php?mod=content&view=categories.default"
+msgstr ""
+
+#: ../../../controllers/admin.controller.categories.php:80
+msgid "The category does not exists"
+msgstr "La categoria no existe"
+
+#: ../../../controllers/admin.controller.categories.php:86
+msgid "Edit Category"
+msgstr "Editar Categoria"
+
+#: ../../../controllers/admin.controller.categories.php:106
+msgid "You need to enter a category name"
+msgstr "Necesita ingresar un nombre para la categoria"
+
+#: ../../../controllers/admin.controller.categories.php:115
+msgid "You dont have enough permissions to create a section"
+msgstr "No tiene suficientes permisos para crear una seccion"
+
+#: ../../../controllers/admin.controller.categories.php:119
+msgid "You dont have enough permissions to edit a section"
+msgstr "No tiene suficientes permisos para editar una seccion"
+
+#: ../../../controllers/admin.controller.categories.php:146
+msgid "The category has been created."
+msgstr "La categoria ha sido creada"
+
+#: ../../../controllers/admin.controller.categories.php:157
+msgid "The category has been updated."
+msgstr "La categoria ha sido actualizada"
+
+#: ../../../controllers/admin.controller.categories.php:158
+#: ../../../views/admin/categories.default.php:69
+msgid "index.php?mod=content&view=categories.edit&id="
+msgstr ""
+
+#: ../../../controllers/admin.controller.categories.php:168
+msgid "You cant perform this action."
+msgstr "No puedes realizar esta operacion."
+
+#: ../../../controllers/admin.controller.categories.php:173
+msgid "Category identifier is invalid."
+msgstr "El identificador de categoria es invalido."
+
+#: ../../../controllers/admin.controller.categories.php:179
+msgid "The category does not exists."
+msgstr "La categoria no existe."
+
+#: ../../../controllers/admin.controller.categories.php:186
+msgid "The category has been deleted."
+msgstr "La categoria ha sido borrada."
+
+#: ../../../controllers/admin.controller.categories.php:195
+#: ../../../controllers/admin.controller.section.php:453
+msgid "Orden actualizado"
+msgstr ""
+
+#: ../../../controllers/admin.controller.categories.php:196
+#: ../../../controllers/admin.controller.section.php:150
+#: ../../../controllers/admin.controller.section.php:157
+#: ../../../controllers/admin.controller.section.php:305
+#: ../../../controllers/admin.controller.section.php:311
+#: ../../../controllers/admin.controller.section.php:321
+#: ../../../controllers/admin.controller.section.php:454 ../../../init.php:99
+#: ../../../init.php:128 ../../../views/admin/section.new.php:9
+#: ../../../views/admin/section.new.php:184
+msgid "index.php?mod=content&view=section.default"
+msgstr ""
+
+#: ../../../controllers/admin.controller.section.php:86 ../../../init.php:99
+#: ../../../views/admin/default.php:54 ../../../views/admin/new.php:259
+msgid "Sections"
+msgstr "Secciones"
+
+#: ../../../controllers/admin.controller.section.php:87
+#: ../../../views/admin/categories.default.php:14
+msgid "New"
+msgstr "Nuevo"
+
+#: ../../../controllers/admin.controller.section.php:88
+msgid "index.php?mod=content&view=section.new"
+msgstr ""
+
+#: ../../../controllers/admin.controller.section.php:94
+msgid "index.php?mod=content&view=section.new&fo="
+msgstr ""
+
+#: ../../../controllers/admin.controller.section.php:100
+msgid "index.php?mod=content&view=section.default&order_by=section_id&order="
+msgstr ""
+
+#: ../../../controllers/admin.controller.section.php:101
+msgid "index.php?mod=content&view=section.default&order_by=name&order="
+msgstr ""
+
+#: ../../../controllers/admin.controller.section.php:102
+msgid "index.php?mod=content&view=section.default&order_by=creation_date&order="
+msgstr ""
+
+#: ../../../controllers/admin.controller.section.php:103
+msgid "index.php?mod=content&view=section.default&order_by=publish_date&order="
+msgstr ""
+
+#: ../../../controllers/admin.controller.section.php:104
+msgid "index.php?mod=content&view=section.default&order_by=end_date&order="
+msgstr ""
+
+#: ../../../controllers/admin.controller.section.php:105
+msgid "index.php?mod=content&view=section.default&order_by=show_order&order="
+msgstr ""
+
+#: ../../../controllers/admin.controller.section.php:125
+msgid "New Section"
+msgstr "Nueva Secci&oacute;n"
+
+#: ../../../controllers/admin.controller.section.php:132
+msgid "index.php?mod=content&task=section.remove_banner&id=temp"
+msgstr ""
+
+#: ../../../controllers/admin.controller.section.php:133
+msgid "index.php?mod=content&task=section.upload_banner"
+msgstr ""
+
+#: ../../../controllers/admin.controller.section.php:135
+msgid "Crear nuevo contenido"
+msgstr ""
+
+#: ../../../controllers/admin.controller.section.php:149
+msgid "El identificador de seccion no es valido"
+msgstr ""
+
+#: ../../../controllers/admin.controller.section.php:156
+msgid "La seccion no existe"
+msgstr ""
+
+#: ../../../controllers/admin.controller.section.php:178
+msgid "Edit Section"
+msgstr ""
+
+#: ../../../controllers/admin.controller.section.php:187
+msgid "index.php?mod=content&task=section.remove_banner&id="
+msgstr ""
+
+#: ../../../controllers/admin.controller.section.php:188
+msgid "index.php?mod=content&task=section.upload_banner&id="
+msgstr ""
+
+#: ../../../controllers/admin.controller.section.php:203
+msgid "Debe ingresar un nombre para la secci&oacute;n."
+msgstr ""
+
+#: ../../../controllers/admin.controller.section.php:259
+msgid "La secci&oacute;n fue creada correctamente."
+msgstr ""
+
+#: ../../../controllers/admin.controller.section.php:260
+msgid "index.php?mod=content&view=section.default&fo="
+msgstr ""
+
+#: ../../../controllers/admin.controller.section.php:277
+msgid "La secci&oacute;n fue actualizada correctamente."
+msgstr ""
+
+#: ../../../controllers/admin.controller.section.php:278
+#: ../../../views/admin/section.default.php:89
+msgid "index.php?mod=content&view=section.edit&id="
+msgstr ""
+
+#: ../../../controllers/admin.controller.section.php:299
+msgid "No tienes permisos suficientes para realizar esta accion."
+msgstr ""
+
+#: ../../../controllers/admin.controller.section.php:304
+msgid "Identificador de secci&oacute;n no valido."
+msgstr ""
+
+#: ../../../controllers/admin.controller.section.php:310
+msgid "Identificador de secci&oacute;n no existe."
+msgstr ""
+
+#: ../../../controllers/admin.controller.section.php:320
+msgid "Secci&oacute;n borrada."
+msgstr ""
+
+#: ../../../functions.php:57 ../../../functions.php:217
+msgid "-- seccion --"
+msgstr "-- secci&oacute;n --"
+
+#: ../../../functions.php:115 ../../../functions.php:142 ../../../init.php:193
+msgid "index.php?mod=content&view=section&id="
+msgstr ""
+
+#: ../../../functions.php:178 ../../../functions.php:200
+msgid "index.php?mod=content&view=category&id="
+msgstr ""
+
+#: ../../../functions.php:312 ../../../init.php:262
+msgid "section"
+msgstr "seccion"
+
+#: ../../../functions.php:323 ../../../init.php:263
+msgid "category"
+msgstr "categoria"
+
+#: ../../../functions.php:400 ../../../functions.php:403 ../../../init.php:97
+#: ../../../widgets/widget.pages.php:8
+msgid "Pages"
+msgstr "Paginas"
+
+#: ../../../functions.php:401
+msgid "New Page"
+msgstr "Nueva P&aacute;gina"
+
+#: ../../../functions.php:402
+msgid "Edit Page"
+msgstr "Editar P&aacute;gina"
+
+#: ../../../functions.php:417 ../../../functions.php:420 ../../../init.php:103
+msgid "Posts"
+msgstr "Entradas"
+
+#: ../../../functions.php:418
+msgid "New Post"
+msgstr "Nueva Entrada"
+
+#: ../../../functions.php:419
+msgid "Edit Post"
+msgstr "Editar Entrada"
+
+#: ../../../html/my-content.php:4
+msgid "Escoge la opcion que te interesa haciendo CLICK encima"
+msgstr ""
+
+#: ../../../init.php:95 ../../../init.php:135
+msgid "Contents"
+msgstr "Contenidos"
+
+#: ../../../init.php:102
+msgid "Blog"
+msgstr "Bitacora"
+
+#: ../../../init.php:102
+msgid "index.php?mod=content&view=posts.default"
+msgstr ""
+
+#: ../../../init.php:103
+msgid "index.php?mod=content&view=default&type=post"
+msgstr ""
+
+#: ../../../init.php:104 ../../../views/admin/categories.default.php:8
+#: ../../../views/admin/new.php:273
+msgid "Categories"
+msgstr "Categorias"
+
+#: ../../../init.php:120
+msgid "Content Statistics"
+msgstr "Estad&iacute;sticas de Contenido"
+
+#: ../../../init.php:126
+msgid "Secciones"
+msgstr ""
+
+#: ../../../init.php:129 ../../../init.php:138
+msgid "View list"
+msgstr "Ver listado"
+
+#: ../../../init.php:152
+msgid "Mi Contenido"
+msgstr ""
+
+#: ../../../init.php:224 ../../../views/admin/new.php:53
+#: ../../../views/blog.php:13 ../../../views/default.php:13
+msgid "index.php?mod=content&view=article&id="
+msgstr ""
+
+#: ../../../on_enabled.php:18
+msgid "Gestion del Blog"
+msgstr ""
+
+#: ../../../on_enabled.php:19
+msgid "Gestion Categorias (Blog)"
+msgstr ""
+
+#: ../../../on_enabled.php:20
+msgid "Create Category (Blog)"
+msgstr "Crear Categoria (Bitacora)"
+
+#: ../../../on_enabled.php:21
+msgid "Edit Category (Blog)"
+msgstr "Editar Categoria (Bitacora)"
+
+#: ../../../on_enabled.php:22
+msgid "Delete Category (Blog)"
+msgstr "Borrar Categoria (Bitacora)"
+
+#: ../../../views/admin/categories.default.php:12
+msgid "index.php?mod=content&view=categories.new"
+msgstr ""
+
+#: ../../../views/admin/categories.default.php:13
+#: ../../../views/admin/section.default.php:8
+msgid "SECTION_BUTTON_NEW"
+msgstr ""
+
+#: ../../../views/admin/categories.default.php:27
+#: ../../../views/admin/section.default.php:33
+msgid "SECTION_TH_ID"
+msgstr ""
+
+#: ../../../views/admin/categories.default.php:28
+#: ../../../views/admin/default.php:38
+#: ../../../views/admin/posts.default.php:35
+#: ../../../views/admin/section.default.php:34
+msgid "ID"
+msgstr ""
+
+#: ../../../views/admin/categories.default.php:33
+#: ../../../views/admin/section.default.php:39
+msgid "SECTION_TH_NAME"
+msgstr ""
+
+#: ../../../views/admin/categories.default.php:34
+#: ../../../views/admin/categories.new.php:30
+msgid "Name"
+msgstr "Nombre"
+
+#: ../../../views/admin/categories.default.php:39
+#: ../../../views/admin/section.default.php:45
+msgid "SECTION_TH_ORDER"
+msgstr ""
+
+#: ../../../views/admin/categories.default.php:40
+#: ../../../views/admin/default.php:57
+msgid "Order"
+msgstr "Orden"
+
+#: ../../../views/admin/categories.default.php:45
+#: ../../../views/admin/section.default.php:51
+msgid "SECTION_TH_DATE"
+msgstr ""
+
+#: ../../../views/admin/categories.default.php:46
+msgid "Creation Date"
+msgstr "Fecha Creacion"
+
+#: ../../../views/admin/categories.default.php:51
+#: ../../../views/admin/section.default.php:69
+msgid "SECTION_TH_ACTIONS"
+msgstr ""
+
+#: ../../../views/admin/categories.default.php:52
+msgid "Action"
+msgstr "Accion"
+
+#: ../../../views/admin/categories.default.php:70
+#: ../../../views/admin/default.php:78
+msgid "Edit"
+msgstr "Editar"
+
+#: ../../../views/admin/categories.default.php:73
+msgid "index.php?mod=content&task=categories.delete&id="
+msgstr ""
+
+#: ../../../views/admin/categories.default.php:75
+#: ../../../views/admin/default.php:85 ../../../views/admin/new.php:308
+msgid "Delete"
+msgstr "Borrar"
+
+#: ../../../views/admin/categories.default.php:76
+msgid "Are you sure to delete the category?"
+msgstr "Esta seguro de borrar la categoria?"
+
+#: ../../../views/admin/categories.default.php:85
+#: ../../../views/admin/default.php:120
+#: ../../../views/admin/posts.default.php:104
+#: ../../../views/admin/section.default.php:105
+#: ../../../views/search-results.php:15
+msgid "index.php?"
+msgstr ""
+
+#: ../../../views/admin/categories.new.php:12
+#: ../../../views/admin/section.new.php:10
+msgid "Back"
+msgstr "Volver"
+
+#: ../../../views/admin/categories.new.php:15
+#: ../../../views/admin/categories.new.php:60 ../../../views/admin/new.php:16
+#: ../../../views/admin/new.php:213 ../../../views/admin/section.new.php:12
+msgid "Save"
+msgstr "Guardar"
+
+#: ../../../views/admin/categories.new.php:29
+#: ../../../views/admin/section.new.php:25
+msgid "SECTION_TITLE"
+msgstr ""
+
+#: ../../../views/admin/categories.new.php:35
+#: ../../../views/admin/section.new.php:90
+msgid "SECTION_DESCRIPTION"
+msgstr ""
+
+#: ../../../views/admin/categories.new.php:36
+msgid "Description"
+msgstr "Descripcion"
+
+#: ../../../views/admin/categories.new.php:41
+msgid "CATEGORY_PARENT"
+msgstr ""
+
+#: ../../../views/admin/categories.new.php:41
+msgid "Category Parent:"
+msgstr "Categoria Padre:"
+
+#: ../../../views/admin/categories.new.php:45 ../../../views/admin/new.php:142
+#: ../../../views/admin/section.new.php:173
+msgid "Language"
+msgstr "Idioma"
+
+#: ../../../views/admin/categories.new.php:57
+#: ../../../views/admin/section.new.php:185
+msgid "SECTION_BUTTON_CANCEL"
+msgstr ""
+
+#: ../../../views/admin/categories.new.php:58 ../../../views/admin/new.php:211
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: ../../../views/admin/categories.new.php:59
+#: ../../../views/admin/section.new.php:187
+msgid "SECTION_BUTTON_SAVE"
+msgstr ""
+
+#: ../../../views/admin/default.php:10 ../../../views/admin/posts.default.php:8
+msgid "CONTENT_BUTTON_NEW"
+msgstr ""
+
+#: ../../../views/admin/default.php:37
+#: ../../../views/admin/posts.default.php:34
+msgid "CONTENT_TH_ID"
+msgstr ""
+
+#: ../../../views/admin/default.php:43
+#: ../../../views/admin/posts.default.php:40
+msgid "CONTENT_TH_TITLE"
+msgstr ""
+
+#: ../../../views/admin/default.php:44
+msgid "Title"
+msgstr "Titulo"
+
+#: ../../../views/admin/default.php:49
+#: ../../../views/admin/posts.default.php:46
+msgid "CONTENT_TH_AUTHOR"
+msgstr ""
+
+#: ../../../views/admin/default.php:50
+msgid "Author"
+msgstr "Autor"
+
+#: ../../../views/admin/default.php:56
+#: ../../../views/admin/posts.default.php:53
+msgid "CONTENT_TH_ORDER"
+msgstr ""
+
+#: ../../../views/admin/default.php:62
+#: ../../../views/admin/posts.default.php:59
+msgid "CONTENT_TH_DATE"
+msgstr ""
+
+#: ../../../views/admin/default.php:63
+msgid "Date"
+msgstr "Fecha"
+
+#: ../../../views/admin/default.php:82
+#: ../../../views/admin/posts.default.php:78
+msgid "index.php?mod=content&task=delete&id="
+msgstr ""
+
+#: ../../../views/admin/default.php:84
+#: ../../../views/admin/posts.default.php:79
+msgid "Seguro que desea borrar este contenido?"
+msgstr ""
+
+#: ../../../views/admin/default.php:109
+msgid "Creation:"
+msgstr "Creaci&oacute;n"
+
+#: ../../../views/admin/default.php:111
+msgid "Publish:"
+msgstr "Publicado:"
+
+#: ../../../views/admin/default.php:112
+msgid "Expiration:"
+msgstr "Expiraci&oacute;n"
+
+#: ../../../views/admin/new.php:34
+msgid "CONTENT_TITLE"
+msgstr ""
+
+#: ../../../views/admin/new.php:35
+msgid "Title:"
+msgstr "Titulo:"
+
+#: ../../../views/admin/new.php:42 ../../../views/admin/section.new.php:34
+msgid "Color de Texto"
+msgstr ""
+
+#: ../../../views/admin/new.php:48 ../../../views/admin/section.new.php:37
+msgid "Color de Boton"
+msgstr ""
+
+#: ../../../views/admin/new.php:54
+msgid "View"
+msgstr "Ver"
+
+#: ../../../views/admin/new.php:63
+msgid "CONTENT_LABEL_UPLOAD_IMG_CHECK"
+msgstr ""
+
+#: ../../../views/admin/new.php:64 ../../../views/admin/section.new.php:46
+msgid "Usar Imagen en lugar de Boton de texto"
+msgstr ""
+
+#: ../../../views/admin/new.php:69 ../../../views/admin/section.new.php:51
+msgid "Subir Imagen para Boton: (Tamaño recomendado: 200x100 / 150x80)"
+msgstr ""
+
+#: ../../../views/admin/new.php:72 ../../../views/admin/section.new.php:54
+msgid "Subir imagen"
+msgstr ""
+
+#: ../../../views/admin/new.php:75 ../../../views/admin/section.new.php:57
+msgid "Subiendo imagen..."
+msgstr ""
+
+#: ../../../views/admin/new.php:81 ../../../views/admin/new.php:104
+#: ../../../views/admin/section.new.php:63
+msgid "Eliminar Banner"
+msgstr ""
+
+#: ../../../views/admin/new.php:89
+msgid "CONTENT_BANNER"
+msgstr ""
+
+#: ../../../views/admin/new.php:89
+msgid "Banner:"
+msgstr ""
+
+#: ../../../views/admin/new.php:91
+msgid "(Recommended Size: 1920x560 / 1920x300)"
+msgstr "(Tamaño Recomendado: 1920x560 / 1920x300)"
+
+#: ../../../views/admin/new.php:95 ../../../views/admin/new.php:304
+msgid "Upload image"
+msgstr "Subir imagen"
+
+#: ../../../views/admin/new.php:98
+msgid "Subiendo imagen"
+msgstr ""
+
+#: ../../../views/admin/new.php:110
+msgid "CONTENT_CONTENT"
+msgstr ""
+
+#: ../../../views/admin/new.php:111
+msgid "Content:"
+msgstr "Contenido:"
+
+#: ../../../views/admin/new.php:117
+msgid "Add Media"
+msgstr "Adicionar Medio"
+
+#: ../../../views/admin/new.php:131
+msgid "Options"
+msgstr "Opciones"
+
+#: ../../../views/admin/new.php:135
+msgid "CONTENT_STATUS"
+msgstr ""
+
+#: ../../../views/admin/new.php:135
+msgid "Estado:"
+msgstr ""
+
+#: ../../../views/admin/new.php:137
+msgid "Publicado"
+msgstr ""
+
+#: ../../../views/admin/new.php:138
+msgid "Borrador"
+msgstr ""
+
+#: ../../../views/admin/new.php:153
+msgid "CONTENT_PUBLSIH_DATE"
+msgstr ""
+
+#: ../../../views/admin/new.php:154
+msgid "Publish Date:"
+msgstr "Fecha Publicacion:"
+
+#: ../../../views/admin/new.php:159
+msgid "CONTENT_EXPIRES_DATE"
+msgstr ""
+
+#: ../../../views/admin/new.php:160
+msgid "Expiration Date:"
+msgstr "Fecha Expiracion:"
+
+#: ../../../views/admin/new.php:170
+msgid "CONTENT_PUBLISH_C_DATE"
+msgstr ""
+
+#: ../../../views/admin/new.php:170
+msgid "Fecha de Publicacion Calculada:"
+msgstr ""
+
+#: ../../../views/admin/new.php:178
+msgid "CONTENT_EXPIRES_C_DATE"
+msgstr ""
+
+#: ../../../views/admin/new.php:178 ../../../views/admin/section.new.php:144
+msgid "Fecha Caducidad Calculada:"
+msgstr ""
+
+#: ../../../views/admin/new.php:185
+msgid "CONTENT_USE_CDATES"
+msgstr ""
+
+#: ../../../views/admin/new.php:187
+msgid "Use calculated dates"
+msgstr "Usar fechas calculadas"
+
+#: ../../../views/admin/new.php:193
+msgid "CONTENT_COVER_PAGE"
+msgstr ""
+
+#: ../../../views/admin/new.php:195
+msgid "Front page content"
+msgstr "Contenido de portada"
+
+#: ../../../views/admin/new.php:201
+msgid "CONTENT_FEATURED_POST"
+msgstr ""
+
+#: ../../../views/admin/new.php:203
+msgid "Featured"
+msgstr "Destacado"
+
+#: ../../../views/admin/new.php:210
+msgid "CONTENT_CANCEL"
+msgstr ""
+
+#: ../../../views/admin/new.php:212
+msgid "CONTENT_SAVE"
+msgstr ""
+
+#: ../../../views/admin/new.php:221 ../../../views/admin/new.php:258
+msgid "CONTENT_WH_SECTIONS"
+msgstr ""
+
+#: ../../../views/admin/new.php:222
+msgid "Template Options"
+msgstr "Opciones de plantilla"
+
+#: ../../../views/admin/new.php:227
+msgid "-- plantilla --"
+msgstr ""
+
+#: ../../../views/admin/new.php:272
+msgid "CONTENT_WH_CATEGORIES"
+msgstr ""
+
+#: ../../../views/admin/new.php:284
+msgid "CONTENT_WH_FEATURED_IMAGE"
+msgstr ""
+
+#: ../../../views/admin/new.php:285
+msgid "Featured Image"
+msgstr "Imagen Destacada"
+
+#: ../../../views/admin/new.php:299
+msgid "Uploading..."
+msgstr "Subiendo..."
+
+#: ../../../views/admin/new.php:401
+msgid "index.php?mod=content&task=upload_button_image"
+msgstr ""
+
+#: ../../../views/admin/new.php:480
+msgid "Sube una imagen de tu equipo"
+msgstr ""
+
+#: ../../../views/admin/new.php:532
+msgid "Upload Files"
+msgstr "Subir archivos"
+
+#: ../../../views/admin/new.php:535
+msgid "index.php?mod=storage&view=uploader&tpl_file=module"
+msgstr ""
+
+#: ../../../views/admin/new.php:539
+msgid "Close"
+msgstr "Cerrar"
+
+#: ../../../views/admin/posts.default.php:5
+msgid "Entradas"
+msgstr ""
+
+#: ../../../views/admin/posts.default.php:7
+msgid "index.php?mod=content&view=new&type=post"
+msgstr ""
+
+#: ../../../views/admin/posts.default.php:9
+msgid "Nuevo"
+msgstr ""
+
+#: ../../../views/admin/posts.default.php:41
+msgid "Titulo"
+msgstr ""
+
+#: ../../../views/admin/posts.default.php:47
+msgid "Autor"
+msgstr ""
+
+#: ../../../views/admin/posts.default.php:51
+msgid "Categorias"
+msgstr ""
+
+#: ../../../views/admin/posts.default.php:54
+#: ../../../views/admin/section.default.php:46
+msgid "Orden"
+msgstr ""
+
+#: ../../../views/admin/posts.default.php:60
+msgid "Fecha"
+msgstr ""
+
+#: ../../../views/admin/posts.default.php:75
+#: ../../../views/admin/section.default.php:91
+msgid "Editar"
+msgstr ""
+
+#: ../../../views/admin/posts.default.php:80
+#: ../../../views/admin/section.default.php:96
+msgid "Borrar"
+msgstr ""
+
+#: ../../../views/admin/posts.default.php:95
+msgid "Creacion:"
+msgstr ""
+
+#: ../../../views/admin/posts.default.php:96
+msgid "Publicacion:"
+msgstr ""
+
+#: ../../../views/admin/posts.default.php:97
+msgid "Caducidad:"
+msgstr ""
+
+#: ../../../views/admin/section.default.php:40
+#: ../../../views/admin/section.new.php:26
+msgid "Nombre"
+msgstr ""
+
+#: ../../../views/admin/section.default.php:52
+msgid "Fecha Creacion"
+msgstr ""
+
+#: ../../../views/admin/section.default.php:57
+msgid "SECTION_TH_PUBLISH_DATE"
+msgstr ""
+
+#: ../../../views/admin/section.default.php:58
+msgid "Fecha Publicacion"
+msgstr ""
+
+#: ../../../views/admin/section.default.php:63
+msgid "SECTION_TH_FINAL_DATE"
+msgstr ""
+
+#: ../../../views/admin/section.default.php:64
+msgid "Fecha Caducidad"
+msgstr ""
+
+#: ../../../views/admin/section.default.php:70
+msgid "Accion"
+msgstr ""
+
+#: ../../../views/admin/section.default.php:94
+msgid "index.php?mod=content&task=section.delete&id="
+msgstr ""
+
+#: ../../../views/admin/section.default.php:97
+msgid "Esta seguro de borrar la seccion de contenido?"
+msgstr ""
+
+#: ../../../views/admin/section.new.php:45
+msgid "SECTION_LABEL_UPLOAD_IMG_CHECK"
+msgstr ""
+
+#: ../../../views/admin/section.new.php:91
+msgid "Descripcion"
+msgstr ""
+
+#: ../../../views/admin/section.new.php:100
+msgid "SECTION_PUBLISH_DATE"
+msgstr ""
+
+#: ../../../views/admin/section.new.php:101
+msgid "Fecha Publicacion:"
+msgstr ""
+
+#: ../../../views/admin/section.new.php:115
+msgid "SECTION_EXPIRES_DATE"
+msgstr ""
+
+#: ../../../views/admin/section.new.php:116
+msgid "Fecha Caducidad:"
+msgstr ""
+
+#: ../../../views/admin/section.new.php:132
+msgid "SECTION_PUBLISH_C_DATE"
+msgstr ""
+
+#: ../../../views/admin/section.new.php:133
+msgid "Fecha Publicaci&oacute;n Calculada:"
+msgstr ""
+
+#: ../../../views/admin/section.new.php:143
+msgid "SECTION_EXPIRES_C_DATE"
+msgstr ""
+
+#: ../../../views/admin/section.new.php:157
+msgid "SECTION_USE_CDATES"
+msgstr ""
+
+#: ../../../views/admin/section.new.php:159
+msgid "Usar fechas calculadas:"
+msgstr ""
+
+#: ../../../views/admin/section.new.php:166
+msgid "SECTION_PARENT"
+msgstr ""
+
+#: ../../../views/admin/section.new.php:166
+msgid "Seccion Padre:"
+msgstr ""
+
+#: ../../../views/admin/section.new.php:186
+msgid "Cancelar"
+msgstr ""
+
+#: ../../../views/admin/section.new.php:188
+msgid "Guardar"
+msgstr ""
+
+#: ../../../views/admin/section.new.php:225
+msgid "index.php?mod=content&task=section.upload_button_image"
+msgstr ""
+
+#: ../../../views/article-not-found.php:4
+msgid "El contenido que esta buscando no existe."
+msgstr ""
+
+#: ../../../views/category.php:22
+msgid "Ver mas"
+msgstr ""
+
+#: ../../../widgets/widget.latest-content.php:6
+msgid "Widget Last Contents"
+msgstr ""
+
+#: ../../../widgets/widget.latest-content.php:11
+msgid "Latest contents"
+msgstr ""
+
+#: ../../../widgets/widget.latest-content.php:51
+msgid "There were not contents found"
+msgstr "No se encontraron contenidos"
+
+#: ../../../widgets/widget.menu.php:6 ../../../widgets/widget.menu.php:12
+msgid "Menu"
+msgstr ""

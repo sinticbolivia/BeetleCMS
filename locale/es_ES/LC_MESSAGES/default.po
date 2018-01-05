@@ -1,0 +1,1701 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Little CMS\n"
+"POT-Creation-Date: 2017-12-09 13:45-0400\n"
+"PO-Revision-Date: 2017-12-09 13:45-0400\n"
+"Last-Translator: J. Marcelo Aviles Paco <maviles@sinticbolivia.net>\n"
+"Language-Team: Sintic Bolivia\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;SBText;SB_Text;_e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ../../../admin\n"
+"X-Poedit-SearchPath-1: ../../../include\n"
+"X-Poedit-SearchPath-2: ../../../install\n"
+"X-Poedit-SearchPathExcluded-0: ../../../admin/templates\n"
+"X-Poedit-SearchPathExcluded-1: ../../../include/libs\n"
+
+#: ../../../admin/include/functions.php:6
+msgid "Home"
+msgstr "Inicio"
+
+#: ../../../admin/include/functions.php:6 ../../../admin/login.php:10
+#: ../../../include/functions.php:385 ../../../include/functions.php:795
+#: ../../../install/success.php:248
+msgid "index.php"
+msgstr ""
+
+#: ../../../admin/include/functions.php:12
+#: ../../../admin/include/functions.php:18
+#, fuzzy
+msgid "index.php?mod=content&type="
+msgstr "Modulos"
+
+#: ../../../admin/include/functions.php:22
+msgid "index.php?mod=content&view=section.default&fo="
+msgstr ""
+
+#: ../../../admin/include/functions.php:28
+msgid "Management"
+msgstr "Administracion"
+
+#: ../../../admin/include/functions.php:32
+#: ../../../admin/include/functions.php:36
+msgid "Settings"
+msgstr "Configuracion"
+
+#: ../../../admin/include/functions.php:33
+#: ../../../admin/include/functions.php:36
+msgid "settings.php"
+msgstr ""
+
+#: ../../../admin/include/functions.php:39
+msgid "Modules"
+msgstr "Modulos"
+
+#: ../../../admin/include/functions.php:39
+#, fuzzy
+msgid "index.php?mod=modules"
+msgstr "Modulos"
+
+#: ../../../admin/include/functions.php:41 ../../../admin/templates.php:48
+msgid "Templates"
+msgstr "Plantillas"
+
+#: ../../../admin/include/functions.php:42
+msgid "templates.php"
+msgstr ""
+
+#: ../../../admin/index.php:9 ../../../admin/profile.php:9
+#: ../../../admin/settings.php:9 ../../../admin/templates.php:9
+msgid "login.php"
+msgstr ""
+
+#: ../../../admin/templates.php:25
+msgid "The template has been activated"
+msgstr "La plantilla fue activada"
+
+#: ../../../admin/templates.php:26 ../../../admin/templates.php:123
+msgid "templates.php?type="
+msgstr ""
+
+#: ../../../admin/templates.php:50
+msgid "templates.php?type=frontend"
+msgstr ""
+
+#: ../../../admin/templates.php:50
+msgid "Frontend"
+msgstr ""
+
+#: ../../../admin/templates.php:51
+#, fuzzy
+msgid "templates.php?type=backend"
+msgstr "Access to backend"
+
+#: ../../../admin/templates.php:51
+msgid "Backend"
+msgstr "Panel de Administracion"
+
+#: ../../../admin/templates.php:72 ../../../admin/templates.php:117
+msgid "Author:"
+msgstr "Autor:"
+
+#: ../../../admin/templates.php:76
+msgid "URL:"
+msgstr ""
+
+#: ../../../admin/templates.php:84 ../../../admin/templates.php:118
+msgid "Version:"
+msgstr ""
+
+#: ../../../admin/templates.php:86 ../../../admin/templates.php:92
+msgid "Unknow"
+msgstr ""
+
+#: ../../../admin/templates.php:90 ../../../admin/templates.php:119
+msgid "Description:"
+msgstr "Descripci&oacute;n"
+
+#: ../../../admin/templates.php:125
+msgid "Activate"
+msgstr "Activar"
+
+#: ../../../admin/templates.php:128
+msgid "Website"
+msgstr "Sitio web"
+
+#: ../../../include/classes/class.api-rest.php:25
+msgid "No entity associated to API endpoint"
+msgstr ""
+
+#: ../../../include/classes/class.api-rest.php:66
+#: ../../../include/classes/class.api-rest.php:71
+msgid "Invalid content type request"
+msgstr ""
+
+#: ../../../include/classes/class.api-rest.php:130
+#: ../../../include/classes/class.api-rest.php:158
+msgid "The data is empty"
+msgstr ""
+
+#: ../../../include/classes/class.api-rest.php:133
+#: ../../../include/classes/class.api-rest.php:161
+msgid "The data format is invalid"
+msgstr ""
+
+#: ../../../include/classes/class.api-rest.php:138
+#: ../../../include/classes/class.api-rest.php:166
+msgid "Unable to save data"
+msgstr ""
+
+#: ../../../include/classes/class.api-rest.php:150
+#: ../../../include/classes/class.api-rest.php:180
+msgid "Invalid product identifier"
+msgstr ""
+
+#: ../../../include/classes/class.api-rest.php:154
+#: ../../../include/classes/class.api-rest.php:184
+msgid "The identifier does not exists"
+msgstr ""
+
+#: ../../../include/classes/class.application.php:306
+msgid "cron.php"
+msgstr ""
+
+#: ../../../include/classes/class.application.php:348
+#: ../../../include/classes/class.language.php:59
+msgid "Spanish"
+msgstr "Espa&ntilde;ol"
+
+#: ../../../include/classes/class.application.php:349
+#: ../../../include/classes/class.language.php:60
+msgid "English"
+msgstr "Ingles"
+
+#: ../../../include/classes/class.controller.php:51
+msgid "There is no module to process"
+msgstr ""
+
+#: ../../../include/classes/class.controller.php:81
+#, php-format
+msgid "View \"%s\" not found"
+msgstr "Vista \"%s\" not encontrada"
+
+#: ../../../include/classes/class.table-list.php:254
+#, php-format
+msgid "Export to %s"
+msgstr ""
+
+#: ../../../include/classes/class.table-list.php:267
+msgid "Num"
+msgstr ""
+
+#: ../../../include/classes/class.table-list.php:273
+msgid "index.php?mod="
+msgstr ""
+
+#: ../../../include/classes/class.table-list.php:285
+msgid "Actions"
+msgstr "Acciones"
+
+#: ../../../include/classes/class.table-list.php:340
+#, fuzzy
+msgid "index.php?"
+msgstr "Modulos"
+
+#: ../../../include/classes/class.table-list.php:360
+msgid "There are no records found yet"
+msgstr "No se encontraron registros"
+
+#: ../../../include/countries.php:3
+msgid "Afghanistan"
+msgstr ""
+
+#: ../../../include/countries.php:4
+msgid "&#197;land Islands"
+msgstr ""
+
+#: ../../../include/countries.php:5
+msgid "Albania"
+msgstr ""
+
+#: ../../../include/countries.php:6
+msgid "Algeria"
+msgstr ""
+
+#: ../../../include/countries.php:7
+msgid "Andorra"
+msgstr ""
+
+#: ../../../include/countries.php:8
+msgid "Angola"
+msgstr ""
+
+#: ../../../include/countries.php:9
+msgid "Anguilla"
+msgstr ""
+
+#: ../../../include/countries.php:10
+msgid "Antarctica"
+msgstr ""
+
+#: ../../../include/countries.php:11
+msgid "Antigua and Barbuda"
+msgstr ""
+
+#: ../../../include/countries.php:12
+msgid "Argentina"
+msgstr ""
+
+#: ../../../include/countries.php:13
+msgid "Armenia"
+msgstr ""
+
+#: ../../../include/countries.php:14
+msgid "Aruba"
+msgstr ""
+
+#: ../../../include/countries.php:15
+msgid "Australia"
+msgstr ""
+
+#: ../../../include/countries.php:16
+msgid "Austria"
+msgstr ""
+
+#: ../../../include/countries.php:17
+msgid "Azerbaijan"
+msgstr ""
+
+#: ../../../include/countries.php:18
+msgid "Bahamas"
+msgstr ""
+
+#: ../../../include/countries.php:19
+msgid "Bahrain"
+msgstr ""
+
+#: ../../../include/countries.php:20
+msgid "Bangladesh"
+msgstr ""
+
+#: ../../../include/countries.php:21
+msgid "Barbados"
+msgstr ""
+
+#: ../../../include/countries.php:22
+msgid "Belarus"
+msgstr ""
+
+#: ../../../include/countries.php:23
+msgid "Belgium"
+msgstr ""
+
+#: ../../../include/countries.php:24
+msgid "Belau"
+msgstr ""
+
+#: ../../../include/countries.php:25
+msgid "Belize"
+msgstr ""
+
+#: ../../../include/countries.php:26
+msgid "Benin"
+msgstr ""
+
+#: ../../../include/countries.php:27
+msgid "Bermuda"
+msgstr ""
+
+#: ../../../include/countries.php:28
+msgid "Bhutan"
+msgstr ""
+
+#: ../../../include/countries.php:29
+msgid "Bolivia"
+msgstr ""
+
+#: ../../../include/countries.php:30
+msgid "Bonaire, Saint Eustatius and Saba"
+msgstr ""
+
+#: ../../../include/countries.php:31
+msgid "Bosnia and Herzegovina"
+msgstr ""
+
+#: ../../../include/countries.php:32
+msgid "Botswana"
+msgstr ""
+
+#: ../../../include/countries.php:33
+msgid "Bouvet Island"
+msgstr ""
+
+#: ../../../include/countries.php:34
+msgid "Brazil"
+msgstr ""
+
+#: ../../../include/countries.php:35
+msgid "British Indian Ocean Territory"
+msgstr ""
+
+#: ../../../include/countries.php:36
+msgid "British Virgin Islands"
+msgstr ""
+
+#: ../../../include/countries.php:37
+msgid "Brunei"
+msgstr ""
+
+#: ../../../include/countries.php:38
+msgid "Bulgaria"
+msgstr ""
+
+#: ../../../include/countries.php:39
+msgid "Burkina Faso"
+msgstr ""
+
+#: ../../../include/countries.php:40
+msgid "Burundi"
+msgstr ""
+
+#: ../../../include/countries.php:41
+msgid "Cambodia"
+msgstr ""
+
+#: ../../../include/countries.php:42
+msgid "Cameroon"
+msgstr ""
+
+#: ../../../include/countries.php:43
+msgid "Canada"
+msgstr ""
+
+#: ../../../include/countries.php:44
+msgid "Cape Verde"
+msgstr ""
+
+#: ../../../include/countries.php:45
+msgid "Cayman Islands"
+msgstr ""
+
+#: ../../../include/countries.php:46
+msgid "Central African Republic"
+msgstr ""
+
+#: ../../../include/countries.php:47
+msgid "Chad"
+msgstr ""
+
+#: ../../../include/countries.php:48
+msgid "Chile"
+msgstr ""
+
+#: ../../../include/countries.php:49
+msgid "China"
+msgstr ""
+
+#: ../../../include/countries.php:50
+msgid "Christmas Island"
+msgstr ""
+
+#: ../../../include/countries.php:51
+msgid "Cocos (Keeling) Islands"
+msgstr ""
+
+#: ../../../include/countries.php:52
+msgid "Colombia"
+msgstr ""
+
+#: ../../../include/countries.php:53
+msgid "Comoros"
+msgstr ""
+
+#: ../../../include/countries.php:54
+msgid "Congo (Brazzaville)"
+msgstr ""
+
+#: ../../../include/countries.php:55
+msgid "Congo (Kinshasa)"
+msgstr ""
+
+#: ../../../include/countries.php:56
+msgid "Cook Islands"
+msgstr ""
+
+#: ../../../include/countries.php:57
+msgid "Costa Rica"
+msgstr ""
+
+#: ../../../include/countries.php:58
+msgid "Croatia"
+msgstr ""
+
+#: ../../../include/countries.php:59
+msgid "Cuba"
+msgstr ""
+
+#: ../../../include/countries.php:60
+msgid "Cura&Ccedil;ao"
+msgstr ""
+
+#: ../../../include/countries.php:61
+msgid "Cyprus"
+msgstr ""
+
+#: ../../../include/countries.php:62
+msgid "Czech Republic"
+msgstr ""
+
+#: ../../../include/countries.php:63
+msgid "Denmark"
+msgstr ""
+
+#: ../../../include/countries.php:64
+msgid "Djibouti"
+msgstr ""
+
+#: ../../../include/countries.php:65
+msgid "Dominica"
+msgstr ""
+
+#: ../../../include/countries.php:66
+msgid "Dominican Republic"
+msgstr ""
+
+#: ../../../include/countries.php:67
+msgid "Ecuador"
+msgstr ""
+
+#: ../../../include/countries.php:68
+msgid "Egypt"
+msgstr ""
+
+#: ../../../include/countries.php:69
+msgid "El Salvador"
+msgstr ""
+
+#: ../../../include/countries.php:70
+msgid "Equatorial Guinea"
+msgstr ""
+
+#: ../../../include/countries.php:71
+msgid "Eritrea"
+msgstr ""
+
+#: ../../../include/countries.php:72
+msgid "Estonia"
+msgstr ""
+
+#: ../../../include/countries.php:73
+msgid "Ethiopia"
+msgstr ""
+
+#: ../../../include/countries.php:74
+msgid "Falkland Islands"
+msgstr ""
+
+#: ../../../include/countries.php:75
+msgid "Faroe Islands"
+msgstr ""
+
+#: ../../../include/countries.php:76
+msgid "Fiji"
+msgstr ""
+
+#: ../../../include/countries.php:77
+msgid "Finland"
+msgstr ""
+
+#: ../../../include/countries.php:78
+msgid "France"
+msgstr "Francia"
+
+#: ../../../include/countries.php:79
+msgid "French Guiana"
+msgstr ""
+
+#: ../../../include/countries.php:80
+msgid "French Polynesia"
+msgstr ""
+
+#: ../../../include/countries.php:81
+msgid "French Southern Territories"
+msgstr ""
+
+#: ../../../include/countries.php:82
+msgid "Gabon"
+msgstr ""
+
+#: ../../../include/countries.php:83
+msgid "Gambia"
+msgstr ""
+
+#: ../../../include/countries.php:84
+msgid "Georgia"
+msgstr ""
+
+#: ../../../include/countries.php:85
+msgid "Germany"
+msgstr "Alemania"
+
+#: ../../../include/countries.php:86
+msgid "Ghana"
+msgstr ""
+
+#: ../../../include/countries.php:87
+msgid "Gibraltar"
+msgstr ""
+
+#: ../../../include/countries.php:88
+msgid "Greece"
+msgstr ""
+
+#: ../../../include/countries.php:89
+msgid "Greenland"
+msgstr ""
+
+#: ../../../include/countries.php:90
+msgid "Grenada"
+msgstr ""
+
+#: ../../../include/countries.php:91
+msgid "Guadeloupe"
+msgstr ""
+
+#: ../../../include/countries.php:92
+msgid "Guatemala"
+msgstr ""
+
+#: ../../../include/countries.php:93
+msgid "Guernsey"
+msgstr ""
+
+#: ../../../include/countries.php:94
+msgid "Guinea"
+msgstr ""
+
+#: ../../../include/countries.php:95
+msgid "Guinea-Bissau"
+msgstr ""
+
+#: ../../../include/countries.php:96
+msgid "Guyana"
+msgstr ""
+
+#: ../../../include/countries.php:97
+msgid "Haiti"
+msgstr ""
+
+#: ../../../include/countries.php:98
+msgid "Heard Island and McDonald Islands"
+msgstr ""
+
+#: ../../../include/countries.php:99
+msgid "Honduras"
+msgstr ""
+
+#: ../../../include/countries.php:100
+msgid "Hong Kong"
+msgstr ""
+
+#: ../../../include/countries.php:101
+msgid "Hungary"
+msgstr ""
+
+#: ../../../include/countries.php:102
+msgid "Iceland"
+msgstr ""
+
+#: ../../../include/countries.php:103
+msgid "India"
+msgstr ""
+
+#: ../../../include/countries.php:104
+msgid "Indonesia"
+msgstr ""
+
+#: ../../../include/countries.php:105
+msgid "Iran"
+msgstr ""
+
+#: ../../../include/countries.php:106
+msgid "Iraq"
+msgstr ""
+
+#: ../../../include/countries.php:107
+msgid "Republic of Ireland"
+msgstr ""
+
+#: ../../../include/countries.php:108
+msgid "Isle of Man"
+msgstr ""
+
+#: ../../../include/countries.php:109
+msgid "Israel"
+msgstr ""
+
+#: ../../../include/countries.php:110
+msgid "Italy"
+msgstr ""
+
+#: ../../../include/countries.php:111
+msgid "Ivory Coast"
+msgstr ""
+
+#: ../../../include/countries.php:112
+msgid "Jamaica"
+msgstr ""
+
+#: ../../../include/countries.php:113
+msgid "Japan"
+msgstr ""
+
+#: ../../../include/countries.php:114
+msgid "Jersey"
+msgstr ""
+
+#: ../../../include/countries.php:115
+msgid "Jordan"
+msgstr ""
+
+#: ../../../include/countries.php:116
+msgid "Kazakhstan"
+msgstr ""
+
+#: ../../../include/countries.php:117
+msgid "Kenya"
+msgstr ""
+
+#: ../../../include/countries.php:118
+msgid "Kiribati"
+msgstr ""
+
+#: ../../../include/countries.php:119
+msgid "Kuwait"
+msgstr ""
+
+#: ../../../include/countries.php:120
+msgid "Kyrgyzstan"
+msgstr ""
+
+#: ../../../include/countries.php:121
+msgid "Laos"
+msgstr ""
+
+#: ../../../include/countries.php:122
+msgid "Latvia"
+msgstr ""
+
+#: ../../../include/countries.php:123
+msgid "Lebanon"
+msgstr ""
+
+#: ../../../include/countries.php:124
+msgid "Lesotho"
+msgstr ""
+
+#: ../../../include/countries.php:125
+msgid "Liberia"
+msgstr ""
+
+#: ../../../include/countries.php:126
+msgid "Libya"
+msgstr ""
+
+#: ../../../include/countries.php:127
+msgid "Liechtenstein"
+msgstr ""
+
+#: ../../../include/countries.php:128
+msgid "Lithuania"
+msgstr ""
+
+#: ../../../include/countries.php:129
+msgid "Luxembourg"
+msgstr ""
+
+#: ../../../include/countries.php:130
+msgid "Macao S.A.R., China"
+msgstr ""
+
+#: ../../../include/countries.php:131
+msgid "Macedonia"
+msgstr ""
+
+#: ../../../include/countries.php:132
+msgid "Madagascar"
+msgstr ""
+
+#: ../../../include/countries.php:133
+msgid "Malawi"
+msgstr ""
+
+#: ../../../include/countries.php:134
+msgid "Malaysia"
+msgstr ""
+
+#: ../../../include/countries.php:135
+msgid "Maldives"
+msgstr ""
+
+#: ../../../include/countries.php:136
+msgid "Mali"
+msgstr ""
+
+#: ../../../include/countries.php:137
+msgid "Malta"
+msgstr ""
+
+#: ../../../include/countries.php:138
+msgid "Marshall Islands"
+msgstr ""
+
+#: ../../../include/countries.php:139
+msgid "Martinique"
+msgstr ""
+
+#: ../../../include/countries.php:140
+msgid "Mauritania"
+msgstr ""
+
+#: ../../../include/countries.php:141
+msgid "Mauritius"
+msgstr ""
+
+#: ../../../include/countries.php:142
+msgid "Mayotte"
+msgstr ""
+
+#: ../../../include/countries.php:143
+msgid "Mexico"
+msgstr ""
+
+#: ../../../include/countries.php:144
+msgid "Micronesia"
+msgstr ""
+
+#: ../../../include/countries.php:145
+msgid "Moldova"
+msgstr ""
+
+#: ../../../include/countries.php:146
+msgid "Monaco"
+msgstr ""
+
+#: ../../../include/countries.php:147
+msgid "Mongolia"
+msgstr ""
+
+#: ../../../include/countries.php:148
+msgid "Montenegro"
+msgstr ""
+
+#: ../../../include/countries.php:149
+msgid "Montserrat"
+msgstr ""
+
+#: ../../../include/countries.php:150
+msgid "Morocco"
+msgstr ""
+
+#: ../../../include/countries.php:151
+msgid "Mozambique"
+msgstr ""
+
+#: ../../../include/countries.php:152
+msgid "Myanmar"
+msgstr ""
+
+#: ../../../include/countries.php:153
+msgid "Namibia"
+msgstr ""
+
+#: ../../../include/countries.php:154
+msgid "Nauru"
+msgstr ""
+
+#: ../../../include/countries.php:155
+msgid "Nepal"
+msgstr ""
+
+#: ../../../include/countries.php:156
+msgid "Netherlands"
+msgstr ""
+
+#: ../../../include/countries.php:157
+msgid "Netherlands Antilles"
+msgstr ""
+
+#: ../../../include/countries.php:158
+msgid "New Caledonia"
+msgstr ""
+
+#: ../../../include/countries.php:159
+msgid "New Zealand"
+msgstr ""
+
+#: ../../../include/countries.php:160
+msgid "Nicaragua"
+msgstr ""
+
+#: ../../../include/countries.php:161
+msgid "Niger"
+msgstr ""
+
+#: ../../../include/countries.php:162
+msgid "Nigeria"
+msgstr ""
+
+#: ../../../include/countries.php:163
+msgid "Niue"
+msgstr ""
+
+#: ../../../include/countries.php:164
+msgid "Norfolk Island"
+msgstr ""
+
+#: ../../../include/countries.php:165
+msgid "North Korea"
+msgstr ""
+
+#: ../../../include/countries.php:166
+msgid "Norway"
+msgstr ""
+
+#: ../../../include/countries.php:167
+msgid "Oman"
+msgstr ""
+
+#: ../../../include/countries.php:168
+msgid "Pakistan"
+msgstr ""
+
+#: ../../../include/countries.php:169
+msgid "Palestinian Territory"
+msgstr ""
+
+#: ../../../include/countries.php:170
+msgid "Panama"
+msgstr ""
+
+#: ../../../include/countries.php:171
+msgid "Papua New Guinea"
+msgstr ""
+
+#: ../../../include/countries.php:172
+msgid "Paraguay"
+msgstr ""
+
+#: ../../../include/countries.php:173
+msgid "Peru"
+msgstr ""
+
+#: ../../../include/countries.php:174
+msgid "Philippines"
+msgstr ""
+
+#: ../../../include/countries.php:175
+msgid "Pitcairn"
+msgstr ""
+
+#: ../../../include/countries.php:176
+msgid "Poland"
+msgstr ""
+
+#: ../../../include/countries.php:177
+msgid "Portugal"
+msgstr ""
+
+#: ../../../include/countries.php:178
+msgid "Qatar"
+msgstr ""
+
+#: ../../../include/countries.php:179
+msgid "Reunion"
+msgstr ""
+
+#: ../../../include/countries.php:180
+msgid "Romania"
+msgstr ""
+
+#: ../../../include/countries.php:181
+msgid "Russia"
+msgstr ""
+
+#: ../../../include/countries.php:182
+msgid "Rwanda"
+msgstr ""
+
+#: ../../../include/countries.php:183
+msgid "Saint Barth&eacute;lemy"
+msgstr ""
+
+#: ../../../include/countries.php:184
+msgid "Saint Helena"
+msgstr ""
+
+#: ../../../include/countries.php:185
+msgid "Saint Kitts and Nevis"
+msgstr ""
+
+#: ../../../include/countries.php:186
+msgid "Saint Lucia"
+msgstr ""
+
+#: ../../../include/countries.php:187
+msgid "Saint Martin (French part)"
+msgstr ""
+
+#: ../../../include/countries.php:188
+msgid "Saint Martin (Dutch part)"
+msgstr ""
+
+#: ../../../include/countries.php:189
+msgid "Saint Pierre and Miquelon"
+msgstr ""
+
+#: ../../../include/countries.php:190
+msgid "Saint Vincent and the Grenadines"
+msgstr ""
+
+#: ../../../include/countries.php:191
+msgid "San Marino"
+msgstr ""
+
+#: ../../../include/countries.php:192
+msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe"
+msgstr ""
+
+#: ../../../include/countries.php:193
+msgid "Saudi Arabia"
+msgstr ""
+
+#: ../../../include/countries.php:194
+msgid "Senegal"
+msgstr ""
+
+#: ../../../include/countries.php:195
+msgid "Serbia"
+msgstr ""
+
+#: ../../../include/countries.php:196
+msgid "Seychelles"
+msgstr ""
+
+#: ../../../include/countries.php:197
+msgid "Sierra Leone"
+msgstr ""
+
+#: ../../../include/countries.php:198
+msgid "Singapore"
+msgstr ""
+
+#: ../../../include/countries.php:199
+msgid "Slovakia"
+msgstr ""
+
+#: ../../../include/countries.php:200
+msgid "Slovenia"
+msgstr ""
+
+#: ../../../include/countries.php:201
+msgid "Solomon Islands"
+msgstr ""
+
+#: ../../../include/countries.php:202
+msgid "Somalia"
+msgstr ""
+
+#: ../../../include/countries.php:203
+msgid "South Africa"
+msgstr ""
+
+#: ../../../include/countries.php:204
+msgid "South Georgia/Sandwich Islands"
+msgstr ""
+
+#: ../../../include/countries.php:205
+msgid "South Korea"
+msgstr ""
+
+#: ../../../include/countries.php:206
+msgid "South Sudan"
+msgstr ""
+
+#: ../../../include/countries.php:207
+msgid "Spain"
+msgstr "Espa&ntilde;a"
+
+#: ../../../include/countries.php:208
+msgid "Sri Lanka"
+msgstr ""
+
+#: ../../../include/countries.php:209
+msgid "Sudan"
+msgstr ""
+
+#: ../../../include/countries.php:210
+msgid "Suriname"
+msgstr ""
+
+#: ../../../include/countries.php:211
+msgid "Svalbard and Jan Mayen"
+msgstr ""
+
+#: ../../../include/countries.php:212
+msgid "Swaziland"
+msgstr ""
+
+#: ../../../include/countries.php:213
+msgid "Sweden"
+msgstr ""
+
+#: ../../../include/countries.php:214
+msgid "Switzerland"
+msgstr ""
+
+#: ../../../include/countries.php:215
+msgid "Syria"
+msgstr ""
+
+#: ../../../include/countries.php:216
+msgid "Taiwan"
+msgstr ""
+
+#: ../../../include/countries.php:217
+msgid "Tajikistan"
+msgstr ""
+
+#: ../../../include/countries.php:218
+msgid "Tanzania"
+msgstr ""
+
+#: ../../../include/countries.php:219
+msgid "Thailand"
+msgstr ""
+
+#: ../../../include/countries.php:220
+msgid "Timor-Leste"
+msgstr ""
+
+#: ../../../include/countries.php:221
+msgid "Togo"
+msgstr ""
+
+#: ../../../include/countries.php:222
+msgid "Tokelau"
+msgstr ""
+
+#: ../../../include/countries.php:223
+msgid "Tonga"
+msgstr ""
+
+#: ../../../include/countries.php:224
+msgid "Trinidad and Tobago"
+msgstr ""
+
+#: ../../../include/countries.php:225
+msgid "Tunisia"
+msgstr ""
+
+#: ../../../include/countries.php:226
+msgid "Turkey"
+msgstr ""
+
+#: ../../../include/countries.php:227
+msgid "Turkmenistan"
+msgstr ""
+
+#: ../../../include/countries.php:228
+msgid "Turks and Caicos Islands"
+msgstr ""
+
+#: ../../../include/countries.php:229
+msgid "Tuvalu"
+msgstr ""
+
+#: ../../../include/countries.php:230
+msgid "Uganda"
+msgstr ""
+
+#: ../../../include/countries.php:231
+msgid "Ukraine"
+msgstr ""
+
+#: ../../../include/countries.php:232
+msgid "United Arab Emirates"
+msgstr ""
+
+#: ../../../include/countries.php:233
+msgid "United Kingdom (UK)"
+msgstr ""
+
+#: ../../../include/countries.php:234
+msgid "United States (US)"
+msgstr ""
+
+#: ../../../include/countries.php:235
+msgid "Uruguay"
+msgstr ""
+
+#: ../../../include/countries.php:236
+msgid "Uzbekistan"
+msgstr ""
+
+#: ../../../include/countries.php:237
+msgid "Vanuatu"
+msgstr ""
+
+#: ../../../include/countries.php:238
+msgid "Vatican"
+msgstr ""
+
+#: ../../../include/countries.php:239
+msgid "Venezuela"
+msgstr ""
+
+#: ../../../include/countries.php:240
+msgid "Vietnam"
+msgstr ""
+
+#: ../../../include/countries.php:241
+msgid "Wallis and Futuna"
+msgstr ""
+
+#: ../../../include/countries.php:242
+msgid "Western Sahara"
+msgstr ""
+
+#: ../../../include/countries.php:243
+msgid "Western Samoa"
+msgstr ""
+
+#: ../../../include/countries.php:244
+msgid "Yemen"
+msgstr ""
+
+#: ../../../include/countries.php:245
+msgid "Zambia"
+msgstr ""
+
+#: ../../../include/countries.php:246
+msgid "Zimbabwe"
+msgstr ""
+
+#: ../../../include/functions.php:184
+#, fuzzy
+msgid "La sesion ha expirado"
+msgstr "The settings has been saved."
+
+#: ../../../include/functions.php:615
+msgid "-- ciudad --"
+msgstr ""
+
+#: ../../../include/functions.php:800
+msgid "Application Error"
+msgstr ""
+
+#: ../../../include/functions.php:808
+#, fuzzy
+msgid "Back"
+msgstr "Panel de Administracion"
+
+#: ../../../include/functions.php:991
+msgid "January"
+msgstr ""
+
+#: ../../../include/functions.php:992
+msgid "February"
+msgstr ""
+
+#: ../../../include/functions.php:993
+msgid "March"
+msgstr ""
+
+#: ../../../include/functions.php:994
+msgid "April"
+msgstr ""
+
+#: ../../../include/functions.php:995
+msgid "May"
+msgstr ""
+
+#: ../../../include/functions.php:996
+msgid "June"
+msgstr ""
+
+#: ../../../include/functions.php:997
+msgid "July"
+msgstr ""
+
+#: ../../../include/functions.php:998
+msgid "August"
+msgstr ""
+
+#: ../../../include/functions.php:999
+msgid "September"
+msgstr ""
+
+#: ../../../include/functions.php:1000
+msgid "October"
+msgstr ""
+
+#: ../../../include/functions.php:1001
+msgid "November"
+msgstr ""
+
+#: ../../../include/functions.php:1002
+msgid "December"
+msgstr ""
+
+#: ../../../include/functions.php:1058
+msgid "-- country --"
+msgstr "-- pais --"
+
+#: ../../../install/index.php:11
+msgid "PHP Version >= 5.2"
+msgstr ""
+
+#: ../../../install/index.php:15
+msgid "PHP GD"
+msgstr ""
+
+#: ../../../install/index.php:20
+msgid "Soporte PHP para compresion ZIP"
+msgstr ""
+
+#: ../../../install/index.php:25
+msgid "Soporte PHP para internacionalizacion (gettext)"
+msgstr ""
+
+#: ../../../install/index.php:43
+msgid "Conexion exitosa"
+msgstr "Connection successfull."
+
+#: ../../../install/index.php:107
+msgid "Debe ingresar el servidor de base de datos."
+msgstr ""
+
+#: ../../../install/index.php:112
+msgid "Debe ingresar el nombre de la base de datos."
+msgstr ""
+
+#: ../../../install/index.php:117
+msgid "Debe ingresar el usuario de base de datos."
+msgstr ""
+
+#: ../../../install/index.php:122
+msgid "Debe ingresar una contrase&ntilde;a para root."
+msgstr ""
+
+#: ../../../install/index.php:239
+msgid "Debe ingresar el servidor de base de datos"
+msgstr ""
+
+#: ../../../install/index.php:245
+msgid "Debe ingresar el nombre de la base de datos"
+msgstr ""
+
+#: ../../../install/index.php:251
+msgid "Debe ingresar el usuario de base de datos"
+msgstr ""
+
+#: ../../../install/index.php:267
+msgid "Bienvenido a la installacion de Little CMS."
+msgstr ""
+
+#: ../../../install/index.php:272
+msgid "Requerimiento"
+msgstr ""
+
+#: ../../../install/index.php:273
+msgid "Satisface"
+msgstr ""
+
+#: ../../../install/index.php:299
+msgid "Acuerdo de licencia"
+msgstr "Licence agreement"
+
+#: ../../../install/index.php:311 ../../../install/index.php:383
+msgid "Siguiente"
+msgstr "Next"
+
+#: ../../../install/index.php:318
+msgid "Configuracion Base de Datos"
+msgstr "Database Settings"
+
+#: ../../../install/index.php:323
+msgid "Base de Datos:"
+msgstr ""
+
+#: ../../../install/index.php:333
+msgid "Servidor:"
+msgstr "Server:"
+
+#: ../../../install/index.php:339
+msgid "Nombre Base de Datos:"
+msgstr "Database Name:"
+
+#: ../../../install/index.php:345 ../../../install/success.php:257
+msgid "Usuario:"
+msgstr "User:"
+
+#: ../../../install/index.php:351
+msgid "Constrase&ntilde;a:"
+msgstr "Password:"
+
+#: ../../../install/index.php:358
+msgid "Verificar conexion"
+msgstr "Verify connection"
+
+#: ../../../install/index.php:366
+msgid "Seleccion de Idioma"
+msgstr ""
+
+#: ../../../install/index.php:374
+msgid "Idioma"
+msgstr ""
+
+#: ../../../install/index.php:376
+msgid "Ingles"
+msgstr ""
+
+#: ../../../install/index.php:377
+msgid "Español"
+msgstr ""
+
+#: ../../../install/index.php:391
+msgid "Administracion"
+msgstr "Management"
+
+#: ../../../install/index.php:397
+msgid "URL Instalacion:"
+msgstr "Installation URL:"
+
+#: ../../../install/index.php:403
+msgid "Ingrese una contrase&ntilde;a para el usuario de administracion"
+msgstr ""
+
+#: ../../../install/index.php:405 ../../../install/success.php:258
+msgid "Contrase&ntilde;a:"
+msgstr "Password:"
+
+#: ../../../install/index.php:411
+msgid "Terminado"
+msgstr "Finished"
+
+#: ../../../install/index.php:419
+msgid ""
+"El servidor no cumple con los requerimientos minimos necesarios, porfavor "
+"verifique que tiene los requerimientos instalados."
+msgstr ""
+
+#: ../../../install/success.php:12
+msgid "Private Access"
+msgstr ""
+
+#: ../../../install/success.php:104
+msgid "Administrador"
+msgstr ""
+
+#: ../../../install/success.php:105
+msgid "Usuario"
+msgstr ""
+
+#: ../../../install/success.php:106
+msgid "Visitante"
+msgstr ""
+
+#: ../../../install/success.php:107
+msgid "SuperAdmin"
+msgstr ""
+
+#: ../../../install/success.php:126
+msgid "Administrar Modulos"
+msgstr ""
+
+#: ../../../install/success.php:134
+msgid "Administrar Plantillas"
+msgstr ""
+
+#: ../../../install/success.php:142
+msgid "Habilitar Modulo"
+msgstr ""
+
+#: ../../../install/success.php:150
+msgid "Deshabilitar Modulo"
+msgstr ""
+
+#: ../../../install/success.php:158
+#, fuzzy
+msgid "Administrar Backend"
+msgstr "Access to backend"
+
+#: ../../../install/success.php:165
+msgid "Crear Rol Admin"
+msgstr ""
+
+#: ../../../install/success.php:172
+#, fuzzy
+msgid "Crear Rol Usuario"
+msgstr "User:"
+
+#: ../../../install/success.php:179
+msgid "Crear Rol Invitado"
+msgstr ""
+
+#: ../../../install/success.php:245
+msgid "Instalacion FINALIZADA CORRECTAMENTE."
+msgstr ""
+
+#: ../../../install/success.php:249
+#, fuzzy
+msgid "Acceder al FrontEnd"
+msgstr "Access to backend"
+
+#: ../../../install/success.php:252
+msgid "admin/index.php"
+msgstr ""
+
+#: ../../../install/success.php:253
+#, fuzzy
+msgid "Acceder al BackEnd"
+msgstr "Access to backend"
+
+#: ../../../install/success.php:255
+msgid "Datos de Acceso al BackEnd:"
+msgstr ""
+
+#: ../../../install/success.php:261
+msgid ""
+"Aviso de seguridad: Recuerda BORRAR o cambiar el nombre al directorio /"
+"install"
+msgstr ""
+
+#~ msgid "My profile"
+#~ msgstr "Mi Perfil"
+
+#, fuzzy
+#~ msgid "index.php?mod=users&task=logout"
+#~ msgstr "Modulos"
+
+#~ msgid "Hello %s"
+#~ msgstr "Hola %s"
+
+#~ msgid "Manager"
+#~ msgstr "Administrador"
+
+#~ msgid "Password"
+#~ msgstr "Contrase&ntilde;a"
+
+#~ msgid "Num."
+#~ msgstr "Nro"
+
+#, fuzzy
+#~ msgid "index.php?mod=mb&view=categories.default"
+#~ msgstr "Modulos"
+
+#, fuzzy
+#~ msgid "index.php?mod=mb&view=types.default"
+#~ msgstr "Modulos"
+
+#, fuzzy
+#~ msgid "index.php?mod=mb&view=mu.default"
+#~ msgstr "Modulos"
+
+#, fuzzy
+#~ msgid "index.php?mod=mb"
+#~ msgstr "Modulos"
+
+#, fuzzy
+#~ msgid "index.php?mod=mb&view=purchases.default"
+#~ msgstr "Modulos"
+
+#, fuzzy
+#~ msgid "index.php?mod=provider"
+#~ msgstr "Modulos"
+
+#, fuzzy
+#~ msgid "index.php?mod=mb&view=import"
+#~ msgstr "Modulos"
+
+#, fuzzy
+#~ msgid "index.php?mod=content"
+#~ msgstr "Modulos"
+
+#, fuzzy
+#~ msgid "index.php?mod=mb&view=orders.default"
+#~ msgstr "Modulos"
+
+#, fuzzy
+#~ msgid "index.php?mod=mb&view=pos.default"
+#~ msgstr "Modulos"
+
+#, fuzzy
+#~ msgid "index.php?mod=quotes"
+#~ msgstr "Modulos"
+
+#, fuzzy
+#~ msgid "index.php?mod=invoices"
+#~ msgstr "Modulos"
+
+#, fuzzy
+#~ msgid "index.php?mod=customers"
+#~ msgstr "Modulos"
+
+#, fuzzy
+#~ msgid "index.php?mod=employees"
+#~ msgstr "Modulos"
+
+#, fuzzy
+#~ msgid "index.php?mod=users"
+#~ msgstr "Modulos"
+
+#, fuzzy
+#~ msgid "index.php?mod=users&view=roles"
+#~ msgstr "Modulos"
+
+#, fuzzy
+#~ msgid "index.php?mod=mb&view=settings"
+#~ msgstr "Modulos"
+
+#, fuzzy
+#~ msgid "System Settings"
+#~ msgstr "Configuracion"
+
+#, fuzzy
+#~ msgid "Customers"
+#~ msgstr "Administracion"
+
+#, fuzzy
+#~ msgid "index.php?mod=storage"
+#~ msgstr "Modulos"
+
+#, fuzzy
+#~ msgid "index.php?mod=mb&view=coupons.default"
+#~ msgstr "Modulos"
+
+#, fuzzy
+#~ msgid "index.php?mod=support"
+#~ msgstr "Modulos"
+
+#, fuzzy
+#~ msgid "Cancel"
+#~ msgstr "Francia"
+
+#~ msgid "City"
+#~ msgstr "Ciudad"
+
+#~ msgid "Country"
+#~ msgstr "Pais"
+
+#, fuzzy
+#~ msgid "Customers Management"
+#~ msgstr "Administracion"
+
+#, fuzzy
+#~ msgid "index.php?mod=customers&view=new"
+#~ msgstr "Modulos"
+
+#~ msgid "New Customer"
+#~ msgstr "Nuevo Cliente"
+
+#, fuzzy
+#~ msgid "index.php?mod=customers&task=delete&id="
+#~ msgstr "Modulos"
+
+#, fuzzy
+#~ msgid "Website:"
+#~ msgstr "Sitio web"
+
+#, fuzzy
+#~ msgid "Storage Settings"
+#~ msgstr "Configuracion"
+
+#, fuzzy
+#~ msgid "index.php?mod=mb&view=coupons.new"
+#~ msgstr "Modulos"
+
+#, fuzzy
+#~ msgid "Active"
+#~ msgstr "Activar"
+
+#, fuzzy
+#~ msgid "Inactive"
+#~ msgstr "Activar"
+
+#, fuzzy
+#~ msgid "index.php?mod=mb&task=coupons.delete&id="
+#~ msgstr "Modulos"
+
+#, fuzzy
+#~ msgid "index.php?mod=mb&view=orders.new"
+#~ msgstr "Modulos"
+
+#, fuzzy
+#~ msgid "index.php?mod=mb&view=orders.edit&id="
+#~ msgstr "Modulos"
+
+#, fuzzy
+#~ msgid "index.php?mod=quotes&view=print&id="
+#~ msgstr "Modulos"
+
+#, fuzzy
+#~ msgid "index.php?mod=quotes&view=new"
+#~ msgstr "Modulos"
+
+#, fuzzy
+#~ msgid "index.php?mod=quotes&task=delete&id="
+#~ msgstr "Modulos"
+
+#, fuzzy
+#~ msgid "index.php?mod=quotes&view=edit&id="
+#~ msgstr "Modulos"
+
+#~ msgid "Hola %s"
+#~ msgstr "Hello %s"
+
+#~ msgid "Mi Perfil"
+#~ msgstr "My Profile"
+
+#, fuzzy
+#~ msgid "Backend Login"
+#~ msgstr "Panel de Administracion"
+
+#~ msgid "Instalaci&oacute;n completada."
+#~ msgstr "Installation complete."
+
+#~ msgid "su contrase&ntilde;a"
+#~ msgstr "your password"
+
+#~ msgid "Configuraci&oacute;n"
+#~ msgstr "Settings"
+
+#~ msgid "Ajustes"
+#~ msgstr "Settings"
+
+#~ msgid "M&oacute;dulos"
+#~ msgstr "Modules"
+
+#~ msgid "Volver"
+#~ msgstr "Back"
+
+#~ msgid "Nombres:"
+#~ msgstr "Firstname:"
+
+#~ msgid "Apellidos:"
+#~ msgstr "Lastname:"
+
+#~ msgid "Perfil"
+#~ msgstr "Profile"
+
+#~ msgid "Dejar en blanco para no actualizar."
+#~ msgstr "Leave blank to no update"
+
+#~ msgid "Guardar"
+#~ msgstr "Save"

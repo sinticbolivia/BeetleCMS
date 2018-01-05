@@ -1,0 +1,543 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BeetleCMS Forms\n"
+"POT-Creation-Date: 2017-10-04 20:13-0400\n"
+"PO-Revision-Date: 2017-10-04 20:13-0400\n"
+"Last-Translator: \n"
+"Language-Team: Sintic Bolivia <info@sinticbolivia.net>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin.controller.php:22
+msgid "index.php?mod=forms&order_by=form_id&order="
+msgstr ""
+
+#: admin.controller.php:23
+msgid "index.php?mod=forms&order_by=title&order="
+msgstr ""
+
+#: admin.controller.php:24
+msgid "index.php?mod=forms&order_by=email&order="
+msgstr ""
+
+#: admin.controller.php:25
+msgid "index.php?mod=forms&order_by=creation_date&order="
+msgstr ""
+
+#: admin.controller.php:30
+msgid "New Form"
+msgstr "Nuevo Formulario"
+
+#: admin.controller.php:39 controller.php:15
+msgid "El formulario no existe"
+msgstr ""
+
+#: admin.controller.php:40 admin.controller.php:79 admin.controller.php:95
+#: init.php:31 views/admin/entries.php:8 views/admin/new.php:117
+msgid "index.php?mod=forms"
+msgstr ""
+
+#: admin.controller.php:44
+msgid "Edit form"
+msgstr "Editar Formulario"
+
+#: admin.controller.php:78
+msgid "The new form has been created"
+msgstr "El formulario ha sido creado"
+
+#: admin.controller.php:84
+msgid "The form has been updated"
+msgstr "El formulario ha sido actualizado"
+
+#: admin.controller.php:85 views/admin/default.php:68
+msgid "index.php?mod=forms&view=edit&id="
+msgstr ""
+
+#: admin.controller.php:94
+msgid "El formulario fue borrado correctamente."
+msgstr ""
+
+#: classes/class.form.php:174
+#, php-format
+msgid "New entry for \"%s\" form received"
+msgstr "Nueva entrada del formulario \"%s\" recibida"
+
+#: classes/class.form.php:175
+msgid "Hello Admin"
+msgstr "Hola Admin"
+
+#: classes/class.form.php:176
+#, php-format
+msgid "You have a new form entry for \"%s\""
+msgstr "Tienes una nueva entrada para \"%s\""
+
+#: classes/class.form.php:177
+msgid "Find the details below"
+msgstr "Encuentra los detalles abajo"
+
+#: classes/class.form.php:184
+msgid "Regards"
+msgstr "Saludos Cordiales"
+
+#: classes/class.form.php:220 classes/class.form.php:252
+#: classes/class.form.php:266
+msgid "/"
+msgstr ""
+
+#: classes/class.form.php:221
+msgid "Your form has been sent"
+msgstr "Su formulario ha sido enviado"
+
+#: controller.php:45
+msgid "The form identifier is invalid"
+msgstr "El identificador de formulario es invalido"
+
+#: controller.php:72
+msgid "There is errors on your form submit, please double check."
+msgstr "Hay errores en el envio del formulario, porfavor revisa."
+
+#: forms/princeseating-enquiry.php:24
+msgid "You need to type a customer name"
+msgstr "Necesita ingresar un nombre de cliente"
+
+#: forms/princeseating-enquiry.php:28
+msgid "You need to type an email address"
+msgstr "Necesita ingresar una direccion de correo"
+
+#: forms/princeseating-enquiry.php:32
+msgid "You need to type a message"
+msgstr "Necesita ingresar un mensaje"
+
+#: forms/princeseating-enquiry.php:50
+msgid "Hello Administrator"
+msgstr "Hola Administrador"
+
+#: forms/princeseating-enquiry.php:51
+#, php-format
+msgid "You have a new %s request, find details below.<br/><br/>"
+msgstr "Tienes una nueva solicitud %s, encuentra los detalles abajo.<br/><br/>"
+
+#: forms/princeseating-enquiry.php:52
+#, php-format
+msgid "Customer: %s<br/>"
+msgstr "Cliente: %s<br/>"
+
+#: forms/princeseating-enquiry.php:53
+#, php-format
+msgid "Email: %s<br/>"
+msgstr ""
+
+#: forms/princeseating-enquiry.php:54
+#, php-format
+msgid "Phone: %s<br/>"
+msgstr "Telefono: %s<br/>"
+
+#: forms/princeseating-enquiry.php:55
+#, php-format
+msgid "Project Name: %s<br/>"
+msgstr ""
+
+#: forms/princeseating-enquiry.php:56
+#, php-format
+msgid "Quantity: %s<br/>"
+msgstr ""
+
+#: forms/princeseating-enquiry.php:57
+#, php-format
+msgid "Time Frame: %s<br/>"
+msgstr ""
+
+#: forms/princeseating-enquiry.php:58
+#, php-format
+msgid "Budget: %s<br/>"
+msgstr ""
+
+#: forms/princeseating-enquiry.php:59
+#, php-format
+msgid "Venue Type: %s<br/>"
+msgstr ""
+
+#: forms/princeseating-enquiry.php:60
+#, php-format
+msgid "Message:<br/>%s<br/>"
+msgstr ""
+
+#: forms/princeseating-enquiry.php:62
+msgid "Regards,"
+msgstr "Soludos Cordiales"
+
+#: forms/princeseating-enquiry.php:75
+msgid "Your message has been sent, we will contact you as soon as possible"
+msgstr ""
+"Su mensaje fue enviado, nos pondremos en contacto con usted lo mas antes "
+"posible"
+
+#: forms/princeseating-enquiry.php:86
+msgid "index.php"
+msgstr ""
+
+#: forms/princeseating-enquiry.php:95
+msgid "Name"
+msgstr "Nombre"
+
+#: forms/princeseating-enquiry.php:101
+msgid "Email"
+msgstr ""
+
+#: forms/princeseating-enquiry.php:107
+msgid "Phone"
+msgstr "Telefono"
+
+#: forms/princeseating-enquiry.php:115
+msgid "Project Name"
+msgstr ""
+
+#: forms/princeseating-enquiry.php:123
+msgid "Qty"
+msgstr "Cant"
+
+#: forms/princeseating-enquiry.php:129
+msgid "Time Frame"
+msgstr ""
+
+#: forms/princeseating-enquiry.php:135
+msgid "Budget"
+msgstr ""
+
+#: forms/princeseating-enquiry.php:155
+msgid "Message"
+msgstr "Mensaje"
+
+#: forms/princeseating-enquiry.php:161
+msgid "Submit"
+msgstr "Enviar"
+
+#: init.php:30 views/admin/default.php:6 views/admin/new.php:46
+msgid "Forms"
+msgstr "Formularios"
+
+#: init.php:70
+msgid "FORMS_TAB_LABEL_SMTP"
+msgstr ""
+
+#: init.php:71
+msgid "SMTP - Formularios"
+msgstr ""
+
+#: init.php:81
+msgid "FORMS_LABEL_EMAIL_FROM"
+msgstr ""
+
+#: init.php:82
+msgid "Email de remitente:"
+msgstr ""
+
+#: init.php:85
+msgid "Configuracion SMTP"
+msgstr ""
+
+#: init.php:87
+msgid "FORMS_LABEL_USE_SMTP"
+msgstr ""
+
+#: init.php:88
+msgid "Utilizar Servidor SMTP:"
+msgstr ""
+
+#: init.php:94
+msgid "FORMS_LABEL_SMTP_SERVER"
+msgstr ""
+
+#: init.php:95
+msgid "Servidor SMTP:"
+msgstr ""
+
+#: init.php:99
+msgid "FORMS_LABEL_SMTP_SERVER_PORT"
+msgstr ""
+
+#: init.php:100
+msgid "Puerto Servidor SMTP:"
+msgstr ""
+
+#: init.php:104
+msgid "FORMS_LABEL_SMTP_USERNAME"
+msgstr ""
+
+#: init.php:105
+msgid "Usuario SMTP:"
+msgstr ""
+
+#: init.php:109
+msgid "FORMS_LABEL_SMTP_PASSWORD"
+msgstr ""
+
+#: init.php:110
+msgid "Contrase&ntilde;a SMTP:"
+msgstr ""
+
+#: init.php:114
+msgid "FORMS_LABEL_SMTP_AUTH_TYPE"
+msgstr ""
+
+#: init.php:115
+msgid "Autenticacion SMTP:"
+msgstr ""
+
+#: init.php:117 init.php:128
+msgid "ninguna"
+msgstr ""
+
+#: init.php:125
+msgid "FORMS_LABEL_SMTP_SECURE"
+msgstr ""
+
+#: init.php:126
+msgid "Seguridad SMTP:"
+msgstr ""
+
+#: on_enabled.php:6
+msgid "Gestionar Formularios"
+msgstr ""
+
+#: on_enabled.php:7
+msgid "Crear formulario"
+msgstr ""
+
+#: on_enabled.php:8
+msgid "Editar formulario"
+msgstr ""
+
+#: on_enabled.php:9
+msgid "Borrar formulario"
+msgstr ""
+
+#: views/admin/default.php:9
+msgid "index.php?mod=forms&view=new"
+msgstr ""
+
+#: views/admin/default.php:10 views/admin/entries.php:9
+msgid "FORMS_BUTTON_NEW"
+msgstr ""
+
+#: views/admin/default.php:11
+msgid "New"
+msgstr "Nuevo"
+
+#: views/admin/default.php:25
+msgid "FORMS_TH_ID"
+msgstr ""
+
+#: views/admin/default.php:31
+msgid "FORMS_TH_TITLE"
+msgstr ""
+
+#: views/admin/default.php:32
+msgid "Nombre"
+msgstr ""
+
+#: views/admin/default.php:37
+msgid "FORMS_TH_EMAIL"
+msgstr ""
+
+#: views/admin/default.php:38
+msgid "Email de destino"
+msgstr ""
+
+#: views/admin/default.php:43
+msgid "FORMS_TH_SHORTCODE"
+msgstr ""
+
+#: views/admin/default.php:44
+msgid "Shortcode"
+msgstr ""
+
+#: views/admin/default.php:48
+msgid "FORMS_TH_DATE"
+msgstr ""
+
+#: views/admin/default.php:49
+msgid "Fecha Creacion"
+msgstr ""
+
+#: views/admin/default.php:63
+msgid "index.php?mod=forms&view=entries&id="
+msgstr ""
+
+#: views/admin/default.php:65
+msgid "Entries"
+msgstr "Entradas"
+
+#: views/admin/default.php:70
+msgid "Editar"
+msgstr ""
+
+#: views/admin/default.php:73
+msgid "index.php?mod=forms&task=delete&id="
+msgstr ""
+
+#: views/admin/default.php:75
+msgid "Seguro que desea borrar el formulario?"
+msgstr ""
+
+#: views/admin/default.php:76
+msgid "Borrar"
+msgstr ""
+
+#: views/admin/entries.php:4
+msgid "Form Entries"
+msgstr "Entradas del Formulario"
+
+#: views/admin/entries.php:10
+msgid "Back"
+msgstr "Volver"
+
+#: views/admin/entries.php:17
+msgid "Export to Excel"
+msgstr "Exportar a Excel"
+
+#: views/admin/entries.php:26
+msgid "Date"
+msgstr "Fecha"
+
+#: views/admin/new.php:8
+msgid "General Info"
+msgstr "Informacion General"
+
+#: views/admin/new.php:9
+msgid "Designer"
+msgstr "Dise&ntilde;ador"
+
+#: views/admin/new.php:10
+msgid "Preview"
+msgstr "Previsualizacion"
+
+#: views/admin/new.php:11
+msgid "HTML Code"
+msgstr "Codigo HTML"
+
+#: views/admin/new.php:12
+msgid "Template"
+msgstr "Plantilla"
+
+#: views/admin/new.php:28
+msgid "FORMS_NAME"
+msgstr ""
+
+#: views/admin/new.php:29
+msgid "Name:"
+msgstr "Nombre:"
+
+#: views/admin/new.php:34
+msgid "FORMS_DESCRIPTION"
+msgstr ""
+
+#: views/admin/new.php:35
+msgid "Description:"
+msgstr "Descripcion:"
+
+#: views/admin/new.php:39
+msgid "FORMS_DEST_EMAIL"
+msgstr ""
+
+#: views/admin/new.php:40
+msgid "Target Email:"
+msgstr "Email Destino:"
+
+#: views/admin/new.php:59
+msgid "FORMS_SUBJECT"
+msgstr ""
+
+#: views/admin/new.php:60
+msgid "Subject"
+msgstr "Asunto"
+
+#: views/admin/new.php:65
+msgid "FORMS_MESSAGE"
+msgstr ""
+
+#: views/admin/new.php:66
+msgid "Message:"
+msgstr "Mensaje:"
+
+#: views/admin/new.php:91
+msgid "Form Fields"
+msgstr "Campos del Formulario"
+
+#: views/admin/new.php:95
+msgid "Your form action needs to be equal to => {form_action}"
+msgstr "La accion de su formulario debe ser igual a => {form_action}"
+
+#: views/admin/new.php:98
+msgid ""
+"Dont forget to add these placholders at the begining of your form or before "
+"&lt;/form> tag"
+msgstr ""
+"No olvide adicionar estos placeholders al principio de su formulario o antes "
+"de la etiqueta &lt;/form>"
+
+#: views/admin/new.php:118
+msgid "FORMS_BUTTON_CANCEL"
+msgstr ""
+
+#: views/admin/new.php:119
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: views/admin/new.php:121
+msgid "FORMS_BUTTON_SAVE"
+msgstr ""
+
+#: views/admin/new.php:122
+msgid "Save"
+msgstr "Guardar"
+
+#: views/form.php:14
+msgid "Asunto: (resume en una frase corta)"
+msgstr ""
+
+#: views/form.php:16
+msgid "Teclea una frase resumen corta de tu consulta o sugerencia"
+msgstr ""
+
+#: views/form.php:20
+msgid "Mensaje"
+msgstr ""
+
+#: views/form.php:24
+msgid ""
+"Opcional: Adjuntar archivo (Archivos permitidos: .jpg .gif .bmp .pdf .doc ."
+"mp3 .zip)"
+msgstr ""
+
+#: views/form.php:25
+msgid "Tama&ntilde;o m&aacute;ximo del archivo: 5Mb"
+msgstr ""
+
+#: views/form.php:28
+msgid "captcha.php?var=forms_captcha"
+msgstr ""
+
+#: views/form.php:33
+msgid "Enviar ahora"
+msgstr ""
+
+#: views/thankyou.php:5
+msgid "Tu formulario ha sido enviado correctamente."
+msgstr ""
+
+#: views/thankyou.php:6
+msgid "Gracias"
+msgstr ""
+
+#: views/thankyou.php:8
+msgid "Aceptar"
+msgstr ""

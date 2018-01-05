@@ -1,0 +1,21 @@
+{
+	"Id": "mod_newsletter",
+	"Name": "Newsletter Modulo for Little CMS",
+    "Names": 
+    {
+        "es_ES":"Boletin Electronico para Little CMS"
+    },
+	"Description": "The module allow to build customer database to send periodically and manual emails about your website news and promotions.",
+    "Descriptions": 
+    {
+        "es_ES": "El modulo permite construir una base de datos de clientes para poder enviar noticias o promociones acerca de su sitio web."
+    },
+	"Website": "http://sinticbolivia.net",
+	"Author": "Sintic Bolivia",
+	"Version": "1.0",
+    "Email": "info@sinticbolivia.net",
+	"deps":
+	{
+		"modules": ["mod_users", "mod_content"]
+	}
+}
