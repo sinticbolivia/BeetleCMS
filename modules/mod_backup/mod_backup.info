@@ -1,8 +1,0 @@
-{
-	"Id": "mod_backup",
-	"Name": "Little CMS Backup",
-	"Description" : "Crear y restaura volcados de la base de datos.",
-	"Website": "http://sinticbolivia.net",
-	"Author": "Sintic Bolivia",
-	"Version": "1.0"
-}
